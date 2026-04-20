@@ -27,9 +27,9 @@ html::-webkit-scrollbar {
 }
 
 .nav-link {
-    font-weight: 600;
-    font-size: 1.6rem;       
-    padding-left: 1.2rem;    
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-left: 1.2rem;
     padding-right: 1.2rem;
 }
 
@@ -45,9 +45,9 @@ html::-webkit-scrollbar {
 .bar {
     display: flex;
     overflow: hidden;
-    border-bottom: 5px snow solid;
-    border-top: 5px snow solid;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 30px black;
+    border-top: 3px snow solid;
+    border-bottom: 3px snow solid;
 }
 
 .bar::-webkit-scrollbar {
@@ -57,8 +57,17 @@ html::-webkit-scrollbar {
 .featured {
     display: flex;
     animation: spin infinite linear;
-    padding-right: 6em;
     will-change: transform;
+}
+
+.featured-reverse {
+    display: flex;
+    animation: spin-reverse infinite linear;
+    will-change: transform;
+}
+
+.card {
+    display: flex;
 }
 
 .slider-item {
@@ -78,15 +87,72 @@ html::-webkit-scrollbar {
     transform: scale(1.1);
 }
 
+.splitter {
+    height: 20px;
+}
+
+.search-tab {
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    padding: 0.375rem 0.75rem;
+    border: snow solid 1px;
+    outline: snow;
+    border-radius: 50px;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    --bs-bg-opacity: 1;
+    outline: none;
+    font-size: 1vw;
+}
+
+.search-tab:focus {
+    border-color: white;
+}
+
+.input-group {
+    gap: 8px;
+}
+
+.input-group .search-tab {
+    border-radius: 50px !important;
+}
+
+.input-group .btn {
+    border-radius: 50px !important;
+}
+
+.card img {
+    pointer-events: none;
+}
+
 /* telefoon */
-@media (min-width: 375px) and (max-width: 980px){
+@media (min-width: 375px) and (max-width: 980px) {
     .slider-item img {
         width: 220px;
         height: 220px;
     }
+
     .site-name {
         font-size: 7vw;
     }
+
+    .search-tab {
+        font-size: 3vw;
+        height: 10vw;
+    }
+
+    .dropdown-toggle {
+        display: none;
+    }
+
+    .card-title {
+        font-size: 3.4vw;
+    }
+
+
 
 }
 
@@ -97,6 +163,10 @@ html::-webkit-scrollbar {
         height: 220px;
     }
 
+    .search-tab {
+        font-size: 3vw;
+    }
+
 }
 
 /* laptop */
@@ -105,10 +175,11 @@ html::-webkit-scrollbar {
         width: 200px;
         height: 200px;
     }
-    .site-name {
-        font-size: 5vw;
-    }
 
+    .site-name {
+        font-size: 3vw;
+    }
+    
 }
 
 /* desktop */
@@ -117,11 +188,13 @@ html::-webkit-scrollbar {
         width: 256px;
         height: 256px;
     }
+
     .site-name {
         font-size: 3vw;
     }
 
 }
+
 @keyframes spin {
     from {
         translate: 0;
@@ -131,3 +204,14 @@ html::-webkit-scrollbar {
         translate: -100%;
     }
 }
+
+@keyframes spin-reverse {
+    from {
+        translate: -100%;
+    }
+
+    to {
+        translate: 0;
+    }
+}
+
