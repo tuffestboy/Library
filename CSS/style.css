@@ -36,22 +36,58 @@ h1 {
 
 .featured {
     display: flex;
-    animation: spin 510s infinite linear;
-    justify-content: center;
-    justify-items: center;
+    animation: spin infinite linear;
     padding-right: 1em;
-
 }
 
 .slider-item {
-    height: 5em;
-    flex: 0 0 5em;
-    padding: 1em;
+    flex: 0 0 auto;
     border-radius: 25px;
 }
 
-.artwork {
-    border-radius: 25px;
+.slider-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    object-fit: cover;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.slider-item:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+/* telefoon */ 
+@media (min-width: 375px) {
+    .slider-item img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* tablet */ 
+@media (min-width: 768px) {
+    .slider-item img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* laptop */ 
+@media (min-width: 1280px) {
+    .slider-item img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* desktop */ 
+@media (min-width: 1440px) {
+    .slider-item img {
+        width: 220px;
+        height: 220px;
+    }
 }
 
 @keyframes spin {

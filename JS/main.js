@@ -5,16 +5,21 @@ async function fetchData() {
 }
 
 function featured_tracks(data) {
-  const bar = document.getElementById("featured-tracks");
+  const featured = document.querySelectorAll(".featured");
 
-  data.forEach(Track => {
-    const slideritem = document.createElement("div");
-    slideritem.className = "slider-item";
-    slideritem.innerHTML = `
-      <img src="${Track.Artwork}" alt="${Track.Name}" class="artwork">
-    `;
+  const duration = data.length * 7;
 
-    bar.appendChild(slideritem);
+  featured.forEach(el => {
+    el.style.animationDuration = `${duration}s`;
+
+    data.forEach(Track => {
+      const slideritem = document.createElement("div");
+      slideritem.className = "slider-item p-1 p-md-2 p-lg-3";
+      slideritem.innerHTML = `
+        <img src="${Track.Artwork}" alt="${Track.Name}" class="artwork">
+      `;
+      el.appendChild(slideritem);
+    });
   });
 }
 
