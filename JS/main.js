@@ -3,21 +3,19 @@ async function fetchData() {
   const data = await response.json();
   featured_tracks(data.Tracks);
   featured_artists(data.Artists);
-  tracks_table(data)
+  tracks_table(data);
 }
 
 function featured_tracks(data) {
   const featured = document.querySelectorAll("#featured-tracks-id");
-
   const duration = data.length * 7;
 
   featured.forEach(el => {
     el.style.animationDuration = `${duration}s`;
-
     data.forEach(Track => {
       const slideritem = document.createElement("div");
       slideritem.className = "slider-item p-2 p-md-3";
-      slideritem.innerHTML = `<img src="${Track.Artwork}" alt="${Track.Name}">`;
+      slideritem.innerHTML = `<img src="${Track.Artwork}" alt="${Track.Name}" draggable="false">`;
       el.appendChild(slideritem);
     });
   });
@@ -25,16 +23,14 @@ function featured_tracks(data) {
 
 function featured_artists(data) {
   const featured = document.querySelectorAll("#featured-artists-id");
-
   const duration = data.length * 7;
 
   featured.forEach(el => {
     el.style.animationDuration = `${duration}s`;
-
     data.forEach(Artist => {
       const slideritem = document.createElement("div");
       slideritem.className = "slider-item p-2 p-md-3";
-      slideritem.innerHTML = `<img src="${Artist.Artwork}" alt="${Artist.Name}">`;
+      slideritem.innerHTML = `<img src="${Artist.Artwork}" alt="${Artist.Name}" draggable="false">`;
       el.appendChild(slideritem);
     });
   });
@@ -42,6 +38,7 @@ function featured_artists(data) {
 
 function tracks_table(data) {
   const table = document.getElementById("tracks-table");
+  if (!table) return;
 
   data.Tracks.forEach(Track => {
     const col = document.createElement("div");
@@ -64,11 +61,13 @@ function tracks_table(data) {
 }
 
 function search_thingy() {
-  document.getElementById("search-tab").addEventListener("input", function () {
+  const input = document.getElementById("search-tab");
+  if (!input) return;
+
+  input.addEventListener("input", function () {
     const thing = this.value.toLowerCase();
     const cols = document.querySelectorAll(".col");
     const table = document.getElementById("tracks-table");
-
     let visible = 0;
 
     cols.forEach(col => {
