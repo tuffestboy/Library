@@ -14,7 +14,7 @@ function featured_tracks(data) {
 
     data.forEach(Track => {
       const slideritem = document.createElement("div");
-      slideritem.className = "slider-item p-1 p-md-2 p-lg-3";
+      slideritem.className = "slider-item p-2 p-md-3 p-lg-5";
       slideritem.innerHTML = `
         <img src="${Track.Artwork}" alt="${Track.Name}">
       `;
