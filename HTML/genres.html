@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Library – jouw persoonlijke muziekoverzicht met tracks, artiesten en genres.">
-    <title>Genres</title>
+    <title>genres</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
-<body data-page="Home">
+<body data-page="genres">
     <header>
-        <nav class="navbar navbar-expand bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="https://cdn.simpleicons.org/librariesdotio/000000" alt="logo" width="80px" height="80px" class="logo">
-                    <h1>LIBRARY</h1>
+                    <img src="https://cdn.simpleicons.org/librariesdotio/000000" alt="logo" width="80" height="80"
+                        class="logo">
+                    <span class="site-name">LIBRARY</span>
                 </a>
-                <div class="nav-underline px-xxl-2 px-sm-5" id="nav">
-                    <ul class="navbar-nav gap-1 nav-underline fs-5 px-xxl-5 justify-content-center">
+                <div class="nav-underline ms-auto" id="nav">
+                    <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="Tracks.html">Tracks</a></li>
                         <li class="nav-item"><a class="nav-link" href="Artists.html">Artists</a></li>
@@ -31,35 +32,10 @@
     </header>
 
     <main>
-        <section>
-            <div class="px-sm-5 py-5 my-5 text-center">
-                <img src="https://cdn.simpleicons.org/librariesdotio/000000" alt="Logo" width="92" height="92"
-                    class="logo">
-                <h1 class="display-5 fw-bold text-body-emphasis">LIBRARY</h1>
-                <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4">
-                        Welcome to Library, your personal music metadata
-                        library
-                    </p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-outline-light btn-lg px-4 gap-3 text-start shadow-lg">
-                            Tracks
-                        </button>
-                        <button type="button" class="btn btn-outline-light btn-lg px-4 text-start shadow-lg">
-                            Profile
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="bar py-md-5 py-xl-2">
-                <div id="featured-tracks-id" class="featured"></div>
-                <div id="featured-tracks-id" class="featured" aria-hidden="true"></div>
-            </div>
-        </section>
-        <div id="featured-artists"></div>
+        
+        
+        
+        <div class="container"><div id="genres"></div></div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../JS/main.js"></script>

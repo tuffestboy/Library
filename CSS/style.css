@@ -2,11 +2,15 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-h1 {
+.site-name {
     letter-spacing: 0.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    font-size: 1vw;
+    line-height: 1;
+    align-self: center;
 }
+
 
 .navbar-brand {
     display: flex;
@@ -19,6 +23,18 @@ h1 {
 
 .navbar-brand img {
     display: block;
+    margin-top: 8px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 1.4rem;       /* groter */
+    padding-left: 1.2rem;    /* meer ruimte tussen tabs */
+    padding-right: 1.2rem;
+}
+
+#nav {
+    margin-right: 2rem;      /* meer naar links */
 }
 
 .logo {
@@ -63,61 +79,49 @@ h1 {
 }
 
 /* telefoon */
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 980px){
     .slider-item img {
         width: 220px;
         height: 220px;
     }
+    .site-name {
+        font-size: 7vw;
+    }
+
 }
 
 /* tablet */
-@media (min-width: 768px) {
+@media (min-width: 981px) and (max-width: 1280px) {
     .slider-item img {
         width: 220px;
         height: 220px;
     }
+
 }
 
 /* laptop */
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (max-width: 1439px) {
     .slider-item img {
         width: 200px;
         height: 200px;
     }
+    .site-name {
+        font-size: 5vw;
+    }
+
 }
 
 /* desktop */
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
     .slider-item img {
         width: 256px;
         height: 256px;
     }
-}
-
-@media (max-width: 1280px) {
-    h1 {
-        font-size: 6vw;
+    .site-name {
+        font-size: 3vw;
     }
-}
 
-@media (min-width: 1280px) {
-    h1 {
-        font-size: 5vw;
-    }
 }
-
-@media (max-width: 1280px) {
-    .nav-link {
-        font-size: 3.5vw;
-    }
-}
-
-@media (min-width: 1280px) {
-    .nav-link {
-        font-size: 2vw;
-    }
-}
-
 @keyframes spin {
     from {
         translate: 0;
