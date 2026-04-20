@@ -16,24 +16,12 @@ html::-webkit-scrollbar {
     padding-left: 8px;
 }
 
-.navbar {
-    padding: 0px;
-}
-
-.table-active td, .table-active th {
-    background-color: snow !important;
-}
-
 .bar {
     padding-left: 0;
     padding-right: 0;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     background-color: #121212;
-}
-
-.container-fluid {
-    padding: 0px;
 }
 
 .swiper-slide {

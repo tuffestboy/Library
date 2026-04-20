@@ -1,5 +1,5 @@
 function featuredtrackbar() {
-    new Swiper('.swiper', {
+    new Swiper('.tracks', {
 
         // Layout
         direction: 'horizontal',
@@ -112,7 +112,7 @@ function featuredtrackbar() {
 }
 
 function featuredartistbar() {
-    new Swiper('.swiper', {
+    new Swiper('.artists', {
 
         // Layout
         direction: 'horizontal',
@@ -201,7 +201,7 @@ function featuredartistbar() {
             delay: 0,
             disableOnInteraction: false,
             pauseOnMouseEnter: false,
-            reverseDirection: false,
+            reverseDirection: true,
             stopOnLastSlide: false,
             waitForTransition: true,
         },
