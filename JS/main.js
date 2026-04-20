@@ -29,7 +29,7 @@ function featuredtracks(data) {
     slide.className = "slide-item swiper-slide";
     slide.innerHTML = `
     <div class="art-wrapper featured">
-      <img src="${Track.Artwork}" alt="${Track.Name}" class="artwork">
+      <img src="${Track.Artwork}" alt="${Track.Name}" class="artwork card-img">
     </div>
     `;
     slidesWrapper.appendChild(slide);
@@ -58,7 +58,7 @@ function featuredartists(data) {
     slide.className = "slide-item swiper-slide";
     slide.innerHTML = `
     <div class="art-wrapper featured">
-      <img src="${Artist.Artwork}" alt="${Artist.Name}" class="artwork">
+      <img src="${Artist.Artwork}" alt="${Artist.Name}" class="artwork card-img">
     </div>
     `;
     slidesWrapper.appendChild(slide);

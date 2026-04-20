@@ -9,6 +9,10 @@ html::-webkit-scrollbar {
     font-weight: 700;
 }
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -16,7 +20,11 @@ html::-webkit-scrollbar {
     padding-left: 8px;
 }
 
-.bar {
+.logo {
+    filter: drop-shadow(0 0 6px #ffffff11);
+}
+
+.featuredbar {
     padding-left: 0;
     padding-right: 0;
     border-top: 5px solid white;
@@ -25,8 +33,16 @@ html::-webkit-scrollbar {
 }
 
 .swiper-slide {
-    pointer-events: none;
+    pointer-events: auto;
     user-select: none;
+}
+
+.art-wrapper {
+    transition: transform 0.5s;
+}
+
+.art-wrapper:hover {
+    transform: scale(1.2);
 }
 
 .art-wrapper {
