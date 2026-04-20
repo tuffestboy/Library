@@ -28,13 +28,13 @@ html::-webkit-scrollbar {
 
 .nav-link {
     font-weight: 600;
-    font-size: 1.4rem;       /* groter */
-    padding-left: 1.2rem;    /* meer ruimte tussen tabs */
+    font-size: 1.6rem;       
+    padding-left: 1.2rem;    
     padding-right: 1.2rem;
 }
 
 #nav {
-    margin-right: 2rem;      /* meer naar links */
+    margin-right: 3rem;
 }
 
 .logo {
