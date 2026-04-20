@@ -16,7 +16,7 @@ function featured_tracks(data) {
       const slideritem = document.createElement("div");
       slideritem.className = "slider-item p-1 p-md-2 p-lg-3";
       slideritem.innerHTML = `
-        <img src="${Track.Artwork}" alt="${Track.Name}" class="artwork">
+        <img src="${Track.Artwork}" alt="${Track.Name}">
       `;
       el.appendChild(slideritem);
     });
