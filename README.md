@@ -48,9 +48,7 @@ Live server extension
 ### Installing
 
 - Open VS code
-```
-Log in met github op VS code
-```
+- Log in met github op VS code
 - Open command palette
 ```
 ctrl+shift+p
