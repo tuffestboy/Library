@@ -13,7 +13,6 @@
 <p align="center"> Musical metadata library for public use.
     <br> 
 </p>
-<p align="center">
 ## 📝 Table of Contents
 
 - [Pages](#pages)
@@ -71,4 +70,3 @@ Status bar: Go live
 ## ✍️ Authors
 
 - [@Tuffestboy](https://github.com/tuffestboy)
-</p>
