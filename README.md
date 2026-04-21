@@ -17,7 +17,9 @@
 ## 📝 Table of Contents
 
 - [Pages](#pages)
-- [Dependencies / Limitations](#limitations)
+- [HIW](#how-it-works)
+- [Requirements](#prerequisites)
+- [Installing](#installing)
 - [Authors](#authors)
 
 ## 📄 Pages <a name = "pages"></a>
@@ -31,7 +33,7 @@ Library is een site om metadata van een nummer op te zoeken en te gebruiken. Dit
 - Search: Een pagina met de gehele collectie van LIBRARY en waar je naar specifieke tracks of artiesten kan zoeken
 
 
-## 💡 How it works <a name = "idea"></a>
+## 💡 How it works <a name = "how-it-works"></a>
 
 Ik doe een api call op spotify van een afspeellijst en de response sla ik locaal op.
 In de toekomst is er dan geen 2de call nodig en zodat het gemakkelijk te hergebruiken is.
