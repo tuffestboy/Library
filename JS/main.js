@@ -3,7 +3,7 @@ let currentFilter = 'Track';
 let currentSort = 'none';
 
 async function fetchData() {
-  const response = await fetch("https://smegmastrijder.nl/API/shuffled");
+  const response = await fetch("https://smegmastrijder.nl/api/shuffled");
   const data = await response.json();
   allTracks = data.Tracks;
   allArtists = data.Artists;
