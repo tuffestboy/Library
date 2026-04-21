@@ -13,16 +13,16 @@
 <p align="center"> Musical metadata library for public use.
     <br> 
 </p>
-
+<p align="center">
 ## 📝 Table of Contents
 
 - [Pages](#pages)
-- [HIW](#how-it-works)
-- [Requirements](#prerequisites)
+- [How it works](#how-it-works)
+- [Requirements](#Requirements)
 - [Installing](#installing)
 - [Authors](#authors)
 
-## 📄 Pages <a name = "pages"></a>
+## 📄 Pages
 
 Library is een site om metadata van een nummer op te zoeken en te gebruiken. Dit zijn de pagina's die het mogelijk maken
 
@@ -33,12 +33,12 @@ Library is een site om metadata van een nummer op te zoeken en te gebruiken. Dit
 - Search: Een pagina met de gehele collectie van LIBRARY en waar je naar specifieke tracks of artiesten kan zoeken
 
 
-## 💡 How it works <a name = "how-it-works"></a>
+## 💡 How it works
 
 Ik doe een api call op spotify van een afspeellijst en de response sla ik locaal op.
 In de toekomst is er dan geen 2de call nodig en zodat het gemakkelijk te hergebruiken is.
 
-### Prerequisites
+### Requirements
 
 ```
 Visual studio code
@@ -68,6 +68,7 @@ tuffestboy/Library
 Status bar: Go live
 ```
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Authors
 
 - [@Tuffestboy](https://github.com/tuffestboy)
+</p>
