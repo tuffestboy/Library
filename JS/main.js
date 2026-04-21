@@ -88,7 +88,7 @@ function renderArtists(artists) {
 
     col.innerHTML = `
       <div class="card rounded-4 overflow-hidden border-white h-100">
-        <img src="${Artist.Artwork}" alt="${Artist.Name}" class="card-img-top track-artwork">
+        <img src="${Artist.Artwork}" alt="${Artist.Name}" class="card-img-top artist-artwork">
         <div class="card-body text-center d-flex flex-column justify-content-center">
           <div class="card-title text-white border-bottom border-white pb-1 mb-1 fs-5">${Artist.Name}</div>
           </div>

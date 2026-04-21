@@ -152,6 +152,21 @@ body {
     object-fit: cover;
 }
 
+#artists-table .col {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+#artists-table .card {
+    width: 100%;
+}
+
+.artist-artwork {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 .card-title,
 .card-text {
     overflow: hidden;
