@@ -3,12 +3,14 @@ let currentFilter = 'Track';
 let currentSort = 'none';
 
 async function fetchData() {
-  const response = await fetch("https://smegmastrijder.nl/api/shuffled");
+  const response = await fetch("https://smegmastrijder.nl/API/shuffled");
   const data = await response.json();
   allTracks = data.Tracks;
+  allArtists = data.Artists;
   featured_tracks(data.Tracks);
   featured_artists(data.Artists);
   renderTracks(allTracks);
+  renderArtists(allArtists);
 }
 
 function featured_tracks(data) {
@@ -65,6 +67,30 @@ function renderTracks(tracks) {
           <div class="card-title text-white border-bottom border-white pb-1 mb-1 fs-5">${Track.Name}</div>
           <div class="card-text text-body border-bottom border-white pb-1 mb-1 small fs-6">${Track.Artist}</div>
           <div class="card-text text-body border-bottom border-white fs-6">${Track.Genre ?? ''}</div>
+          </div>
+      </div>
+    `;
+
+    table.appendChild(col);
+  });
+}
+
+function renderArtists(artists) {
+  const table = document.getElementById("artists-table");
+  if (!table) return;
+  table.innerHTML = '';
+  table.classList.add("bg-light-subtle", "border", "shadow-lg");
+
+  artists.forEach(Artist => {
+    const col = document.createElement("div");
+    col.className = "col";
+    col.dataset.name = Artist.Name;
+
+    col.innerHTML = `
+      <div class="card rounded-4 overflow-hidden border-white h-100">
+        <img src="${Artist.Artwork}" alt="${Artist.Name}" class="card-img-top track-artwork">
+        <div class="card-body text-center d-flex flex-column justify-content-center">
+          <div class="card-title text-white border-bottom border-white pb-1 mb-1 fs-5">${Artist.Name}</div>
           </div>
       </div>
     `;

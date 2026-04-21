@@ -35,7 +35,7 @@ Library is een site om metadata van een nummer op te zoeken en te gebruiken. Dit
 
 ## 💡 How it works
 
-Ik doe een api call op spotify van een afspeellijst en de response sla ik locaal op.
+Ik doe een API call op spotify van een afspeellijst en de response sla ik locaal op.
 In de toekomst is er dan geen 2de call nodig en zodat het gemakkelijk te hergebruiken is.
 
 ### Requirements
