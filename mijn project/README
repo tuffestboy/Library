@@ -1,0 +1,43 @@
+HOE WERKT HET:
+    uhm unpack de zip en start de website op met een local host
+
+
+DAG 1:
+    dus dit is versie 2 van dit project (de eerste was best trash) wat ik nu eerst gedaan heb 
+    is de homepage/informatie page maken dus nav bar wat is spotify trends waarom spotify trends 
+    en een formulier om berichten te sturen per mail dit werkt nog niet ik zou het kunnen laten werken met php ofzo
+    maar ik heb daar niet veel zin in dus voor nu als je op send drukt kom er confetti
+    tis allemaal best basic beetje boodstrap voor stylen en grid heeeeeeel klein beetje custom css voor styling en een fade in effect 
+    op het laden van de pagina
+
+
+DAG 1 DEEL 2:
+    ok dus ik ben nu bezig geweest met dat api spull voor de top nummers
+    ik heb hiervoor kerst nummers gekozen want het is de season (en ik wist niet helemaal wat er werd bedoeld met top nummers?)
+    ik haal deze kerst nummers uit een top kerst lietjes playlist voor nederland ik sorteer hier op popularitijd 
+    en laat de top 10 op de website zien ik heb wat kleine animaties toegevoegt zoals dat de naam als een carrousel van rechts naar links gaat
+    ik heb ook een ding toegevoegt waardoor je de nummers kunt afspelen dit doe ik door de track op spotify te zoeken met de track id van
+    het gegeven nummer
+
+
+DAG 2:
+    alright dus ik heb vandaag niet echt heel veel gedaan ik heb een loading animatie toegevoegt voor als die api calls maakt 
+    ik heb de user experience erg veel verbeterd door de code te optimaliseren ik heb try execpt finally error handling toegevoegt 
+    en een reload knop toegevoegt voor als er errors zijn of als de api call 0 tracks returned oh ik heb ook de functie die nummers called
+    en sorteerd aangepast dus nu kan die meerdere soorten playlists ophalen en verwerken dus inplaats van alleen kerst nummers heb ik
+    ook een top 10 van nederland en een top 10 meest populaire nummers gemaakt 
+
+
+DAG 3:
+    uhm dus ja vandaag ging het eigenlijk best zen gangetje het was vooral herhaling (en asset reuse)
+    ik heb dus de top artiesten pagina gemaakt met 5 top artiesten die het top punt van profesionalitijd zijn
+    je kunt hun popularitijd rating naam genres en top nummer zien ik heb hier 2 functies voor gemaakt een die nummers ophaald en sorteert op popularitijd
+    en een om de artiest zelf te zoeken
+
+
+DAG 3 DEEL 2:
+    ik heb een zoekfunctie toegevoegt dit vervangt de genre pagina (want dit hoefde niet) hiermee kun je naar nummers zoeken
+
+
+Dag 7:
+    En op de zevende dag rustte ik

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" 
+          content="Spotify Trends laat je de 
+                   nieuwste trending nummers, artiesten en genres ontdekken. 
+                   Blijf op de hoogte van populaire muziek wereldwijd.">
+
+    <meta name="keywords" 
+          content="Spotify trends, trending muziek, 
+                   populaire nummers, top artiesten, muziek trends, 
+                   Spotify charts, top nummers, genres, muziek 
+                   website, Bootstrap project">
+
+    <meta name="author" content="David Tragter">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Home || Spotify Trends</title>
+</head>
+
+<body class="bg-dark text-light page-load">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top fs-4">
+            <div class="container">
+
+                <a class="navbar-brand fs-2 fw-bold" href="/pages/index.html">
+                    <i class="fab fa-spotify me-2"></i>Spotify Trends
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active active-page" aria-current="page" href="/pages/index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/top-nummers.html">
+                                top-nummers
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/top-artiesten.html">
+                                top-artiesten
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/zoeken.html">
+                                zoeken
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid w-100 d-block image-border" 
+                             loading="lazy" 
+                             src="../assets/spotify-trends-logo-purple.png" 
+                             alt="Spotify-trends logo purple">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-start">
+                        <h1 class="fw-bold fs-1">Welcome to <span class="text-primary">Spotify Trends</span></h1>
+                        <p class="text-secondary fs-5">
+                            Discover trending music from around the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-12 col-md-6 text-end">
+                        <h2 class="fw-bold fs-1">Over <span class="text-primary">Spotify Trends</span></h2>
+                        <p class="text-secondary fs-5">
+                            Spotify Trends is een website die gebruikers snel en eenvoudig toegang geeft tot de nieuwste Spotify-trends.
+                            Denk hierbij aan populaire nummers, trending artiesten en de genres die op dit moment helemaal hip zijn.
+                            Dit alles wordt mogelijk gemaakt door een harmonieuze integratie van Bootstrap, HTML, CSS en JavaScript,
+                            die samen zorgen voor een gebruiksvriendelijke en aantrekkelijke website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-12 col-md-6 text-start">
+                        <h2 class="fw-bold fs-1">Het doel van <span class="text-primary">Spotify Trends</span></h2>
+                        <p class="text-secondary fs-5">
+                            Het doel van Spotify Trends is om mijn vaardigheden in HTML, CSS en JavaScript verder te verfijnen. 
+                            Daarnaast maak ik kennis met Bootstrap en leer ik moderne HTML5-standaarden toe te passen binnen webprojecten. 
+                            Na het afronden van dit project kan ik (hopelijk) de gebruikersinteractie verbeteren, 
+                            een moderne en overzichtelijke HTML-structuur opzetten, eenvoudige animaties toepassen 
+                            en vaardiger en zelfverzekerder werken met JavaScript.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="mt-5 mb-5">
+            <div class="container">
+                <div class="row align-items-start justify-content-between">
+                    <h2 class="text-light text-center mb-4 fw-bold fs-1">wilt u contact opnemen met mij?</h2>
+                    <form method="POST" action="#" class="col-md-5 mb-4 text-light">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Naam:</label>
+                            <input type="text" name="name" id="name" class="form-control p-3" placeholder="Terry Davis">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail:</label>
+                            <input type="email" name="email" id="email" class="form-control p-3" placeholder="TDavis@DivineIntellect.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Bericht:</label>
+                            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Typ je bericht..."></textarea>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary w-100 fs-4 con-but">Verstuur</button>
+                    </form>
+
+                    <div class="col-md-6  text-dark">
+                        <h3 class="text-primary fw-bold fs-2">Spotify Trends</h3>
+                        <p class="text-light">
+                            Bedankt voor het bezoeken van Spotify Trends™.
+                            Deze website is gemaakt om je snel inzicht te geven in de nieuwste muziek- en artiestentrends.
+                            powered by HTML, CSS, JavaScript, Bootstrap en Divine Intellect.
+                        </p>
+
+                        <p class="text-secondary">
+                            © 2025 Spotify Trends — All rights reserved — David Tragter
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap 5 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--confetti librairy-->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
+    <!--main js script-->
+    <script src="../js/main.js"></script>
+</body>
+</html>
