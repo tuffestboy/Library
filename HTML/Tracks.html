@@ -33,29 +33,23 @@
 
     <main class="container-xxl">
         <section>
-            <div class="input-group mt-5">  
-                <button class="btn btn-outline-light rounded-2 border-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Dropdown</button>
+            <div class="input-group mt-5">
+                <button class="btn btn-secondary dropdown-toggle fs-2" type="button" id="filter-btn"
+                    data-bs-toggle="dropdown">
+                    Filter: Track
+                </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action before</a></li>
-                    <li><a class="dropdown-item" href="#">Another action before</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    <li><a class="dropdown-item" href="#" data-filter="Track">Track</a></li>
+                    <li><a class="dropdown-item" href="#" data-filter="Artist">Artist</a></li>
+                    <li><a class="dropdown-item" href="#" data-filter="Genre">Genre</a></li>
                 </ul>
-                <input type="text" class="search-tab" id="search-tab">
-                <button class="btn btn-outline-light rounded-2 dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                >Dropdown</button>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                <input type="text" class="search-tab fs-1 fw-bolder" id="search-tab">
+                <button class="btn btn-secondary dropdown-toggle fs-2" type="button" id="sort-btn" data-bs-toggle="dropdown">
+                    Sort by
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" data-sort="az">A → Z</a></li>
+                    <li><a class="dropdown-item" href="#" data-sort="za">Z → A</a></li>
                 </ul>
             </div>
         </section>
@@ -63,7 +57,8 @@
             <div class="splitter my-5 border bg-secondary shadow-lg border-black rounded rounded-5"></div>
         </section>
         <section>
-            <div id="tracks-table" class="row my-5 bg-light-subtle border rounded-5 px-2 shadow-lg row-cols-md-3 row-cols-lg-6 g-3">
+            <div id="tracks-table"
+                class="row my-5 bg-light-subtle border rounded-5 px-2 shadow-lg row-cols-md-3 row-cols-lg-6 g-3">
             </div>
         </section>
     </main>
