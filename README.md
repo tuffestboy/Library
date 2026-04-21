@@ -13,6 +13,7 @@
 <p align="center"> Musical metadata library for public use.
     <br> 
 </p>
+
 ## 📝 Table of Contents
 
 - [Pages](#pages)
