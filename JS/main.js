@@ -16,7 +16,7 @@ function featured_bar(tracks, artists) {
     el.style.animationDuration = `${track}s`;
     tracks.forEach(track => {
       const item = document.createElement("div");
-      item.className = "slider-item p-2 p-md-3";
+      item.className = "slider-item my-3 mx-3 p-2";
       item.innerHTML = `<img alt="${track.Name}" draggable="false" src="${track.Artwork}">`;
       el.appendChild(item);
     });
@@ -26,7 +26,7 @@ function featured_bar(tracks, artists) {
     el.style.animationDuration = `${artist}s`;
     artists.forEach(artist => {
       const item = document.createElement("div");
-      item.className = "slider-item p-2 p-md-3";
+      item.className = "slider-item my-3 mx-3 p-2";
       item.innerHTML = `<img alt="${artist.Name}" draggable="false" src="${artist.Artwork}">`;
       el.appendChild(item);
     });
@@ -38,7 +38,7 @@ function tracks_table(tracks) {
   if (!el) return;
   tracks.forEach(track => {
     const col = document.createElement("div");
-    col.className = "col m-0 p-2";
+    col.className = "col m-3 py-3";
     col.innerHTML = `
           <div class="card">
               <img class="card-img-top track-artwork" alt="${track.Name}" src="${track.Artwork}">
@@ -56,7 +56,7 @@ function artists_table(artists) {
   if (!el) return;
   artists.forEach(artist => {
     const col = document.createElement("div");
-    col.className = "col m-0 p-2";
+    col.className = "col m-0 p-3";
     col.innerHTML = `
           <div class="card pb-4">
               <img class="artist-artwork card-img-top" alt="${artist.Name}" src="${artist.Artwork}">
