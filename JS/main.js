@@ -37,13 +37,13 @@ function tracks_table(tracks) {
   if (!el) return;
   tracks.forEach(track => {
     const col = document.createElement("div");
-    col.className = "col mb-3 p-2";
+    col.className = "col m-0 p-2";
     col.innerHTML = `
-          <div class="card h-100">
+          <div class="card">
               <img src="${track.Artwork}" alt="${track.Name}" class="track-artwork card-img-top">
-              <div class="card-body">
-                  <h6 class="card-title">${track.Name}</h6>
-                  <p class="card-text text-body-secondary small">${track.Artist}</p>
+              <div class="card-body h-50 px-1">
+                  <h6 class="card-title pb-1 m-0 text-center text-white">${track.Name}</h6>
+                  <p class="card-text pb-1 m-0 text-center text-muted small">${track.Artist}</p>
               </div>
           </div>`;
     el.appendChild(col);
@@ -55,12 +55,12 @@ function artists_table(artists) {
   if (!el) return;
   artists.forEach(artist => {
     const col = document.createElement("div");
-    col.className = "col mb-3 p-2";
+    col.className = "col m-0 p-2";
     col.innerHTML = `
-          <div class="card h-100">
+          <div class="card pb-4">
               <img src="${artist.Artwork}" alt="${artist.Name}" class="artist-artwork card-img-top">
-              <div class="card-body">
-                  <h6 class="card-title">${artist.Name}</h6>
+              <div class="card-body h-50 px-1">
+                  <h6 class="card-title pb-1 m-0 text-center text-white text">${artist.Name}</h6>
               </div>
           </div>`;
     el.appendChild(col);
