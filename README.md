@@ -14,7 +14,7 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Inhoud
 
 - [Pages](#pages)
 - [How it works](#how-it-works)
