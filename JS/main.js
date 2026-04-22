@@ -1,140 +1,70 @@
-let allTracks = [];
-let currentFilter = 'Track';
-let currentSort = 'none';
-
 async function fetchData() {
   const response = await fetch("https://smegmastrijder.nl/api/shuffled");
   const data = await response.json();
-  allTracks = data.Tracks;
-  allArtists = data.Artists;
-  featured_tracks(data.Tracks);
-  featured_artists(data.Artists);
-  renderTracks(allTracks);
-  renderArtists(allArtists);
+  featured_bar(data.Tracks, data.Artists);
+  tracks_table(data.Tracks);
+  artists_table(data.Artists);
 }
 
-function featured_tracks(data) {
-  const featured = document.querySelectorAll("#featured-tracks-id");
-  const duration = data.length * 7;
+function featured_bar(tracks, artists) {
+  const trackEls = document.querySelectorAll(".track-bar");
+  const artistEls = document.querySelectorAll(".artist-bar");
+  const duration = tracks.length * 7;
 
-  featured.forEach(el => {
+  trackEls.forEach(el => {
     el.style.animationDuration = `${duration}s`;
-    data.forEach(Track => {
-      const slideritem = document.createElement("div");
-      slideritem.className = "slider-item p-2 p-md-3";
-      slideritem.innerHTML = `<img src="${Track.Artwork}" alt="${Track.Name}" draggable="false">`;
-      el.appendChild(slideritem);
+    tracks.forEach(track => {
+      const item = document.createElement("div");
+      item.className = "slider-item p-2 p-md-3";
+      item.innerHTML = `<img src="${track.Artwork}" alt="${track.Name}" draggable="false">`;
+      el.appendChild(item);
     });
   });
-}
 
-function featured_artists(data) {
-  const featured = document.querySelectorAll("#featured-artists-id");
-  const duration = data.length * 7;
-
-  featured.forEach(el => {
+  artistEls.forEach(el => {
     el.style.animationDuration = `${duration}s`;
-    data.forEach(Artist => {
-      const slideritem = document.createElement("div");
-      slideritem.className = "slider-item p-2 p-md-3";
-      slideritem.innerHTML = `<img src="${Artist.Artwork}" alt="${Artist.Name}" draggable="false">`;
-      el.appendChild(slideritem);
+    artists.forEach(artist => {
+      const item = document.createElement("div");
+      item.className = "slider-item p-2 p-md-3";
+      item.innerHTML = `<img src="${artist.Artwork}" alt="${artist.Name}" draggable="false">`;
+      el.appendChild(item);
     });
   });
 }
 
-function renderTracks(tracks) {
-  const table = document.getElementById("tracks-table");
-  if (!table) return;
-  table.innerHTML = '';
-
-  if (tracks.length === 0) {
-    table.classList.remove("bg-light-subtle", "border", "shadow-lg");
-    return;
-  }
-  table.classList.add("bg-light-subtle", "border", "shadow-lg");
-
-  tracks.forEach(Track => {
+function tracks_table(tracks) {
+  const el = document.getElementById("tracks-table");
+  if (!el) return;
+  tracks.forEach(track => {
     const col = document.createElement("div");
-    col.className = "col";
-    col.dataset.name = Track.Name;
-    col.dataset.artist = Track.Artist;
-
+    col.className = "col m-0 p-2";
     col.innerHTML = `
-      <div class="card rounded-4 overflow-hidden border-white h-100">
-        <img src="${Track.Artwork}" alt="${Track.Name}" class="card-img-top track-artwork">
-        <div class="card-body text-center d-flex flex-column justify-content-center">
-          <div class="card-title text-white border-bottom border-white pb-1 mb-1 fs-5">${Track.Name}</div>
-          <div class="card-text text-body border-bottom border-white pb-1 mb-1 small fs-6">${Track.Artist}</div>
-          <div class="card-text text-body border-bottom border-white fs-6">${Track.Genre ?? ''}</div>
-          </div>
-      </div>
-    `;
-
-    table.appendChild(col);
+          <div class="card">
+              <img src="${track.Artwork}" alt="${track.Name}" class="track-artwork card-img-top">
+              <div class="card-body h-50 px-1">
+                  <h6 class="card-title pb-1 m-0 text-center text-white">${track.Name}</h6>
+                  <p class="card-text pb-1 m-0 text-center text-muted small">${track.Artist}</p>
+              </div>
+          </div>`;
+    el.appendChild(col);
   });
 }
 
-function renderArtists(artists) {
-  const table = document.getElementById("artists-table");
-  if (!table) return;
-  table.innerHTML = '';
-  table.classList.add("bg-light-subtle", "border", "shadow-lg");
-
-  artists.forEach(Artist => {
+function artists_table(artists) {
+  const el = document.getElementById("artists-table");
+  if (!el) return;
+  artists.forEach(artist => {
     const col = document.createElement("div");
-    col.className = "col";
-    col.dataset.name = Artist.Name;
-
+    col.className = "col m-0 p-2";
     col.innerHTML = `
-      <div class="card rounded-4 overflow-hidden border-white h-100">
-        <img src="${Artist.Artwork}" alt="${Artist.Name}" class="card-img-top artist-artwork">
-        <div class="card-body text-center d-flex flex-column justify-content-center">
-          <div class="card-title text-white border-bottom border-white pb-1 mb-1 fs-5">${Artist.Name}</div>
-          </div>
-      </div>
-    `;
-
-    table.appendChild(col);
-  });
-}
-
-function applyFiltersAndSort() {
-  const query = document.getElementById("search-tab")?.value.toLowerCase() ?? '';
-
-  let filtered = allTracks.filter(track => {
-    if (currentFilter === 'Artist') return track.Artist.toLowerCase().includes(query);
-    if (currentFilter === 'Genre') return track.Genre?.toLowerCase().includes(query);
-    return track.Name.toLowerCase().includes(query);
-  });
-
-  if (currentSort === 'az') filtered.sort((a, b) => a.Name.localeCompare(b.Name));
-  if (currentSort === 'za') filtered.sort((a, b) => b.Name.localeCompare(a.Name));
-
-  renderTracks(filtered);
-}
-
-function search_thingy() {
-  document.getElementById("search-tab")?.addEventListener("input", applyFiltersAndSort);
-
-  document.querySelectorAll("[data-filter]").forEach(item => {
-    item.addEventListener("click", e => {
-      e.preventDefault();
-      currentFilter = e.target.dataset.filter;
-      document.getElementById("filter-btn").textContent = `Filter: ${currentFilter}`;
-      applyFiltersAndSort();
-    });
-  });
-
-  document.querySelectorAll("[data-sort]").forEach(item => {
-    item.addEventListener("click", e => {
-      e.preventDefault();
-      currentSort = e.target.dataset.sort;
-      document.getElementById("sort-btn").textContent = currentSort === 'az' ? 'Sort: A → Z' : 'Sort: Z → A';
-      applyFiltersAndSort();
-    });
+          <div class="card pb-4">
+              <img src="${artist.Artwork}" alt="${artist.Name}" class="artist-artwork card-img-top">
+              <div class="card-body h-50 px-1">
+                  <h6 class="card-title pb-1 m-0 text-center text-white text">${artist.Name}</h6>
+              </div>
+          </div>`;
+    el.appendChild(col);
   });
 }
 
 fetchData();
-search_thingy();

@@ -7,7 +7,6 @@ body {
     user-select: none;
 }
 
-
 .site-name {
     align-self: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,10 +35,6 @@ body {
     font-weight: 700;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-}
-
-#nav {
-    margin-right: 3rem;
 }
 
 .logo {
@@ -77,21 +72,15 @@ body {
     will-change: transform;
 }
 
-.card {
-    display: flex;
-}
-
-.card img {
-    pointer-events: none;
-}
-
 .slider-item {
     flex: 0 0 auto;
 }
 
 .slider-item img {
     border: 2px snow solid;
+    border: 2px snow solid;
     border-radius: 15px;
+    box-shadow: 0px 0px 20px white;
     box-shadow: 0px 0px 20px white;
     object-fit: cover;
     pointer-events: none;
@@ -179,7 +168,7 @@ body {
 }
 
 /* telefoon */
-@media (min-width: 375px) and (max-width: 980px) {
+@media (max-width: 980px) {
     .slider-item img {
         height: 220px;
         width: 220px;
@@ -187,15 +176,6 @@ body {
 
     .site-name {
         font-size: 7vw;
-    }
-
-    .search-tab {
-        font-size: 3vw;
-        height: 10vw;
-    }
-
-    .dropdown-toggle {
-        display: none;
     }
 
     .card-title {
@@ -210,13 +190,13 @@ body {
         width: 220px;
     }
 
-    .search-tab {
-        font-size: 3vw;
+    .site-name {
+        font-size: 5vw;
     }
 }
 
 /* laptop */
-@media (min-width: 1280px) and (max-width: 1439px) {
+@media (min-width: 1281px) and (max-width: 1439px) {
     .slider-item img {
         height: 200px;
         width: 200px;
