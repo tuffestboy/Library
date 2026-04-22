@@ -47,7 +47,7 @@ Visual studio code
 Live server extension
 ```
 
-### Installing
+### Installeren
 
 - Open VS code
 - Log in met github op VS code
@@ -63,7 +63,7 @@ Git: Clone
 ```
 tuffestboy/Library
 ```
-- Start with live server
+- Start met live server
 ```
 Status bar: Go live
 ```
