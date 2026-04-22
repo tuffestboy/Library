@@ -9,24 +9,25 @@ async function fetchData() {
 function featured_bar(tracks, artists) {
   const trackEls = document.querySelectorAll(".track-bar");
   const artistEls = document.querySelectorAll(".artist-bar");
-  const duration = tracks.length * 7;
+  const track = tracks.length * 7;
+  const artist = artists.length * 7;
 
   trackEls.forEach(el => {
-    el.style.animationDuration = `${duration}s`;
+    el.style.animationDuration = `${track}s`;
     tracks.forEach(track => {
       const item = document.createElement("div");
       item.className = "slider-item p-2 p-md-3";
-      item.innerHTML = `<img src="${track.Artwork}" alt="${track.Name}" draggable="false">`;
+      item.innerHTML = `<img alt="${track.Name}" draggable="false" src="${track.Artwork}">`;
       el.appendChild(item);
     });
   });
 
   artistEls.forEach(el => {
-    el.style.animationDuration = `${duration}s`;
+    el.style.animationDuration = `${artist}s`;
     artists.forEach(artist => {
       const item = document.createElement("div");
       item.className = "slider-item p-2 p-md-3";
-      item.innerHTML = `<img src="${artist.Artwork}" alt="${artist.Name}" draggable="false">`;
+      item.innerHTML = `<img alt="${artist.Name}" draggable="false" src="${artist.Artwork}">`;
       el.appendChild(item);
     });
   });
@@ -40,10 +41,10 @@ function tracks_table(tracks) {
     col.className = "col m-0 p-2";
     col.innerHTML = `
           <div class="card">
-              <img src="${track.Artwork}" alt="${track.Name}" class="track-artwork card-img-top">
+              <img class="card-img-top track-artwork" alt="${track.Name}" src="${track.Artwork}">
               <div class="card-body h-50 px-1">
-                  <h6 class="card-title pb-1 m-0 text-center text-white">${track.Name}</h6>
-                  <p class="card-text pb-1 m-0 text-center text-muted small">${track.Artist}</p>
+                  <h6 class="card-title m-0 pb-1 text-center text-white">${track.Name}</h6>
+                  <p class="card-text m-0 pb-1 small text-center text-muted">${track.Artist}</p>
               </div>
           </div>`;
     el.appendChild(col);
@@ -58,9 +59,9 @@ function artists_table(artists) {
     col.className = "col m-0 p-2";
     col.innerHTML = `
           <div class="card pb-4">
-              <img src="${artist.Artwork}" alt="${artist.Name}" class="artist-artwork card-img-top">
+              <img class="artist-artwork card-img-top" alt="${artist.Name}" src="${artist.Artwork}">
               <div class="card-body h-50 px-1">
-                  <h6 class="card-title pb-1 m-0 text-center text-white text">${artist.Name}</h6>
+                  <h6 class="card-title m-0 pb-1 text text-center text-white">${artist.Name}</h6>
               </div>
           </div>`;
     el.appendChild(col);
