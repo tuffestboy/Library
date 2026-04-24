@@ -4,6 +4,7 @@ async function fetchData() {
   featured_bar(data.Tracks, data.Artists);
   tracks_table(data.Tracks);
   artists_table(data.Artists);
+  console.log("Data is geladen!")
 }
 
 function featured_bar(tracks, artists) {
