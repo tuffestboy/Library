@@ -63,8 +63,8 @@ function artists_table(artists) {
     col.innerHTML = `
       <div class="card">
         <img class="artist-artwork card-img-top" alt="${artist.Name}" src="${artist.Artwork}">
-        <div class="card-body h-50 px-1">
-          <h6 class="card-title m-0 pb-1 text text-center text-white">${artist.Name}</h6>
+        <div class="card-body px-1 pb-0">
+          <h6 class="card-title m-0 text text-center text-white text-wrap">${artist.Name}</h6>
         </div>
       </div>`;
     el.appendChild(col);
