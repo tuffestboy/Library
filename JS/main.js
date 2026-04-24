@@ -39,13 +39,14 @@ function tracks_table(tracks) {
   if (!el) return;
   tracks.forEach(track => {
     const col = document.createElement("div");
-    col.className = "col m-3 py-3";
+    col.className = "col m-0 p-3";
     col.innerHTML = `
           <div class="card">
               <img class="card-img-top track-artwork" alt="${track.Name}" src="${track.Artwork}">
               <div class="card-body h-50 px-1">
                   <h6 class="card-title m-0 pb-1 text-center text-white">${track.Name}</h6>
                   <p class="card-text m-0 pb-1 small text-center text-muted">${track.Artist}</p>
+                  <p class="card-text m-0 pb-1 small text-center text-muted">${track.Genre}</p>
               </div>
           </div>`;
     el.appendChild(col);
@@ -59,7 +60,7 @@ function artists_table(artists) {
     const col = document.createElement("div");
     col.className = "col m-0 p-3";
     col.innerHTML = `
-          <div class="card pb-4">
+          <div class="card">
               <img class="artist-artwork card-img-top" alt="${artist.Name}" src="${artist.Artwork}">
               <div class="card-body h-50 px-1">
                   <h6 class="card-title m-0 pb-1 text text-center text-white">${artist.Name}</h6>

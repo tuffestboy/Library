@@ -32,7 +32,6 @@ Library is een site om metadata van een nummer op te zoeken en te gebruiken. Dit
 - Genres: Een volledige lijst van alle genres die behoren tot de opgeslagen tracks
 - Search: Een pagina met de gehele collectie van LIBRARY en waar je naar specifieke tracks of artiesten kan zoeken
 
-
 ## 💡 How it works
 
 Ik doe een API call op spotify van een afspeellijst en de response sla ik locaal op.
@@ -43,6 +42,7 @@ In de toekomst is er dan geen 2de call nodig en zodat het gemakkelijk te hergebr
 ```
 Visual studio code
 ```
+
 ```
 Live server extension
 ```
@@ -52,18 +52,25 @@ Live server extension
 - Open VS code
 - Log in met github op VS code
 - Open command palette
+
 ```
 ctrl+shift+p
 ```
+
 - Clone de repo
+
 ```
 Git: Clone
 ```
+
 - Geef de repository naam
+
 ```
 tuffestboy/Library
 ```
+
 - Start met live server
+
 ```
 Status bar: Go live
 ```
