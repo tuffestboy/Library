@@ -29,7 +29,6 @@ Library is een site om metadata van een nummer op te zoeken en te gebruiken. Dit
 - Home: De homepage, de welkomst pagina waar wordt uitgelegd hoe de site werkt en wat je er allemaal kunt doen
 - Tracks: Een volledige lijst van alle opgeslagen tracks die je kan gebruiken.
 - Artists: Een volledige lijst van allle opgeslagen artiesten die je kan gebruiken
-- Genres: Een volledige lijst van alle genres die behoren tot de opgeslagen tracks
 - Search: Een pagina met de gehele collectie van LIBRARY en waar je naar specifieke tracks of artiesten kan zoeken
 
 ## 💡 How it works

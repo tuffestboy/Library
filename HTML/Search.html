@@ -3,14 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta content="Library artiesten en genres. jouw met muziekoverzicht persoonlijke tracks, –" name="description">
+    <meta content="Library – zoek tracks op titel, artiest of genre." name="description">
+    <link rel="icon" href="https://cdn.simpleicons.org/librariesdotio/000000" type="image/svg+xml">
     <title>Search</title>
+    <meta author="ismar">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="../CSS/style.css" rel="stylesheet">
 </head>
 
-<body data-page="Tracks">
+<body data-page="Search">
     <header>
         <nav class="navbar navbar-expand">
             <div class="container-fluid">
@@ -24,29 +26,61 @@
                         <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="Tracks.html">Tracks</a></li>
                         <li class="nav-item"><a class="nav-link" href="Artists.html">Artists</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Genres.html">Genres</a></li>
+
                         <li class="nav-item"><a class="active nav-link" href="Search.html">Search</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <main>
-        <section class="container">
-            <div class="d-flex align-items-center">
-                <button type="button" class="btn btn-outline-light dropdown-toggle"></button>
-                <ul class="dropdown-menu">
+        <section class="container my-5">
 
-                </ul>
-                <input type="text" name="thing" id="searchbalk"
-                    class="form-control my-5 w-50 mx-auto btn btn-outline-light fs-3">
-                <button type="button" class="btn btn-outline-light dropdown-toggle"></button>
-                <ul class="dropdown-menu">
+            <!-- Zoekbalk + dropdowns -->
+            <div class="align-items-center d-flex gap-3 justify-content-center">
 
-                </ul>
+                <!-- Genre filter dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="genre-btn"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Genre
+                    </button>
+                    <ul class="dropdown-menu" id="genre-menu">
+                        <!-- Gevuld door JS -->
+                    </ul>
+                </div>
+
+                <!-- Zoekbalk -->
+                <input type="text" id="searchbalk" class="form-control fs-5 w-50"
+                    placeholder="Zoek op titel of artiest...">
+
+                <!-- Sorteren dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="sort-btn"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Sorteren
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#" data-sort="default">Standaard</a></li>
+                        <li><a class="dropdown-item" href="#" data-sort="popularity-desc">Populariteit ↓</a></li>
+                        <li><a class="dropdown-item" href="#" data-sort="popularity-asc">Populariteit ↑</a></li>
+                        <li><a class="dropdown-item" href="#" data-sort="name-asc">Naam A–Z</a></li>
+                        <li><a class="dropdown-item" href="#" data-sort="name-desc">Naam Z–A</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Resultaat teller -->
+            <p class="mt-4 text-center text-muted" id="result-count"></p>
+
+            <!-- Resultaten grid -->
+            <div class="bg-light-subtle border mt-2 p-1 rounded-5 row row-cols-lg-6 row-cols-md-3 row-cols-2 shadow-lg"
+                id="search-results">
             </div>
         </section>
     </main>
+
     <footer>
         <div class="container">
             <div class="my-4 py-3">
@@ -59,9 +93,13 @@
                     <li class="nav-item"><a class="nav-link px-2 text-body-secondary"
                             href="https://smegmastrijder.nl/api">API</a></li>
                 </ul>
-                <p class="text-body-secondary text-center">© 2026
-                    LIBRARY</p>
+                <p class="text-body-secondary text-center">© 2026 LIBRARY</p>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/main.js"></script>
 </body>
+
+</html>
