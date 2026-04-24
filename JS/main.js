@@ -14,9 +14,9 @@ function featured_bar(tracks, artists) {
   const track = tracks.length * 7;
   const artist = artists.length * 7;
 
-  trackEls.forEach(el => {
+  trackEls.forEach((el) => {
     el.style.animationDuration = `${track}s`;
-    tracks.forEach(track => {
+    tracks.forEach((track) => {
       const item = document.createElement("div");
       item.className = "slider-item my-3 mx-3 p-2";
       item.innerHTML = `<img alt="${track.Name}" draggable="false" src="${track.Artwork}">`;
@@ -24,9 +24,9 @@ function featured_bar(tracks, artists) {
     });
   });
 
-  artistEls.forEach(el => {
+  artistEls.forEach((el) => {
     el.style.animationDuration = `${artist}s`;
-    artists.forEach(artist => {
+    artists.forEach((artist) => {
       const item = document.createElement("div");
       item.className = "slider-item my-3 mx-3 p-2";
       item.innerHTML = `<img alt="${artist.Name}" draggable="false" src="${artist.Artwork}">`;
@@ -38,7 +38,7 @@ function featured_bar(tracks, artists) {
 function tracks_table(tracks) {
   const el = document.getElementById("tracks-table");
   if (!el) return;
-  tracks.forEach(track => {
+  tracks.forEach((track) => {
     const col = document.createElement("div");
     col.className = "col m-0 p-3";
     col.innerHTML = `
@@ -57,7 +57,7 @@ function tracks_table(tracks) {
 function artists_table(artists) {
   const el = document.getElementById("artists-table");
   if (!el) return;
-  artists.forEach(artist => {
+  artists.forEach((artist) => {
     const col = document.createElement("div");
     col.className = "col m-0 p-3";
     col.innerHTML = `
@@ -77,12 +77,17 @@ function search_page(tracks) {
 
   // --- Genre dropdown vullen ---
   const genreMenu = document.getElementById("genre-menu");
-  const genres = [...new Set(tracks.map(t => t.Genre))].sort();
+  const genres = [...new Set(tracks.map((t) => t.Genre))].sort();
 
   genreMenu.innerHTML =
     `<li><a class="dropdown-item" href="#" data-genre="all">Alle genres</a></li>
      <li><hr class="dropdown-divider"></li>` +
-    genres.map(g => `<li><a class="dropdown-item" href="#" data-genre="${g}">${g}</a></li>`).join("");
+    genres
+      .map(
+        (g) =>
+          `<li><a class="dropdown-item" href="#" data-genre="${g}">${g}</a></li>`,
+      )
+      .join("");
 
   // --- State ---
   let currentGenre = "all";
@@ -96,15 +101,16 @@ function search_page(tracks) {
     // Zoeken op naam of artiest
     if (currentSearch.trim()) {
       const q = currentSearch.toLowerCase();
-      filtered = filtered.filter(t =>
-        t.Name.toLowerCase().includes(q) ||
-        t.Artist.toLowerCase().includes(q)
+      filtered = filtered.filter(
+        (t) =>
+          t.Name.toLowerCase().includes(q) ||
+          t.Artist.toLowerCase().includes(q),
       );
     }
 
     // Filter op genre
     if (currentGenre !== "all") {
-      filtered = filtered.filter(t => t.Genre === currentGenre);
+      filtered = filtered.filter((t) => t.Genre === currentGenre);
     }
 
     // Sorteren
@@ -129,7 +135,7 @@ function search_page(tracks) {
       return;
     }
 
-    filtered.forEach(track => {
+    filtered.forEach((track) => {
       const col = document.createElement("div");
       col.className = "col m-0 p-3";
       col.innerHTML = `
@@ -149,13 +155,13 @@ function search_page(tracks) {
   // --- Event listeners ---
 
   // Zoekbalk (live zoeken)
-  document.getElementById("searchbalk").addEventListener("input", e => {
+  document.getElementById("searchbalk").addEventListener("input", (e) => {
     currentSearch = e.target.value;
     render();
   });
 
   // Genre filter
-  genreMenu.addEventListener("click", e => {
+  genreMenu.addEventListener("click", (e) => {
     const item = e.target.closest("[data-genre]");
     if (!item) return;
     e.preventDefault();
@@ -166,8 +172,8 @@ function search_page(tracks) {
   });
 
   // Sorteren
-  document.querySelectorAll("[data-sort]").forEach(item => {
-    item.addEventListener("click", e => {
+  document.querySelectorAll("[data-sort]").forEach((item) => {
+    item.addEventListener("click", (e) => {
       e.preventDefault();
       currentSort = e.target.dataset.sort;
       document.getElementById("sort-btn").textContent = e.target.textContent;
