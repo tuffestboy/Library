@@ -1,5 +1,5 @@
 async function fetchData() {
-  const response = await fetch("api.json");
+  const response = await fetch("../JS/api.json");
   const data = await response.json();
   featured_bar(data.Tracks, data.Artists);
   tracks_table(data.Tracks);
