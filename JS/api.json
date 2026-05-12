@@ -1,0 +1,1326 @@
+{
+    "Tracks": [
+        {
+            "Name": "Everybody Knows",
+            "Artist": "Sigrid",
+            "Genre": null,
+            "Playcount": 593293,
+            "ID": "34b3PCTLUISY153eb2F72k",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2733eac454010205e6047494d06"
+        },
+        {
+            "Name": "Often",
+            "Artist": "The Weeknd",
+            "Genre": null,
+            "Playcount": 1173212,
+            "ID": "27NV2KxoQ8WuLMqlTDI61F",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273cc453150b04581f1295e1e36"
+        },
+        {
+            "Name": "Phantom",
+            "Artist": "EsDeeKid",
+            "Genre": "gangsta rap",
+            "Playcount": 8268404,
+            "ID": "57Z6TJCTMACXxdrcwZ3Zvf",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273cff4bd68d5d0dd9a0a748045"
+        },
+        {
+            "Name": "House featuring John Cale",
+            "Artist": "Charli xcx",
+            "Genre": "neoclassical darkwave",
+            "Playcount": 1715347,
+            "ID": "15ApEgs3gaAMKOEj2vzH1p",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2735048960108f204f627b294b4"
+        },
+        {
+            "Name": "Broad Daylight",
+            "Artist": "Gabriel Rios",
+            "Genre": null,
+            "Playcount": 538459,
+            "ID": "5S8QeiTS2ehiXtzNDV2yR8",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2730a8c1ba117fc8c459e661d84"
+        },
+        {
+            "Name": "Homecoming",
+            "Artist": "Kanye West",
+            "Genre": "hip-hop",
+            "Playcount": 20612411,
+            "ID": "4iz9lGMjU1lXS51oPmUmTe",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a"
+        },
+        {
+            "Name": "Sick and Tired",
+            "Artist": "Anastacia",
+            "Genre": null,
+            "Playcount": 1631139,
+            "ID": "54s027DgaSJlvp1q2sdzTa",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273ade7496600da316d867dadc1"
+        },
+        {
+            "Name": "Do You Hate Me?",
+            "Artist": "Tender Misfit",
+            "Genre": null,
+            "Playcount": 10489,
+            "ID": "1aHFl2Phf6PRMj1Mt1065m",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273b2536d0bd48431f5f4c9f382"
+        },
+        {
+            "Name": "Secret",
+            "Artist": "Baby Jane",
+            "Genre": null,
+            "Playcount": 15468,
+            "ID": "3eV3fccO7u6ui1mHQmupO1",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273448e3722ab742338ab112cf8"
+        },
+        {
+            "Name": "Dies Irae",
+            "Artist": "Aloboi",
+            "Genre": null,
+            "Playcount": 186241,
+            "ID": "5VwQYfL9t74S8A45z60Hxv",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273d370b9f67dd4294dd3513dff"
+        },
+        {
+            "Name": "Dracula",
+            "Artist": "Tame Impala",
+            "Genre": "psychedelic",
+            "Playcount": 10574266,
+            "ID": "1NXbNEAcPvY5G1xvfN57aA",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b"
+        },
+        {
+            "Name": "Heartbeat",
+            "Artist": "Childish Gambino",
+            "Genre": "hip-hop",
+            "Playcount": 21522745,
+            "ID": "5AGQSF0ytihJyt96K5vW9d",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2736182cfe2e2a090d125c81dc0"
+        },
+        {
+            "Name": "Monster",
+            "Artist": "Kanye West",
+            "Genre": "rap",
+            "Playcount": 11518163,
+            "ID": "1ZHYJ2Wwgxes4m8Ba88PeK",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
+        },
+        {
+            "Name": "No Church In The Wild",
+            "Artist": "JAŸ-Z",
+            "Genre": null,
+            "Playcount": 360611,
+            "ID": "7r6PigmGzlB3YPB7wvBBbi",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27352e61456aa4995ba48d94e30"
+        },
+        {
+            "Name": "Everything is romantic featuring caroline polachek",
+            "Artist": "Charli xcx",
+            "Genre": "art pop",
+            "Playcount": 5286215,
+            "ID": "1RGidCmtrqER8GBs8TnG9C",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2738ac99f88ebc09b1f1637dc00"
+        },
+        {
+            "Name": "Me and the Devil",
+            "Artist": "Soap&Skin",
+            "Genre": "cover",
+            "Playcount": 4549729,
+            "ID": "0wrWxW18WK2MkrfDpRHkyh",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27376016873b8c84a5ee37d34d6"
+        },
+        {
+            "Name": "Desperado",
+            "Artist": "Rihanna",
+            "Genre": "r&b",
+            "Playcount": 6205553,
+            "ID": "4mCf3vQf7z0Yseo0RxAi3V",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2736be9bac15995f089579074de"
+        },
+        {
+            "Name": "When I'm Small",
+            "Artist": "Phantogram",
+            "Genre": "poptron",
+            "Playcount": 7245938,
+            "ID": "3y1EzRl5UEQxxd1f6Bv2aN",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27315f856c044360b26ac41f109"
+        },
+        {
+            "Name": "Les",
+            "Artist": "Childish Gambino",
+            "Genre": null,
+            "Playcount": 314808,
+            "ID": "7ghKr0pCYyPPyp7t1FH8k4",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2736182cfe2e2a090d125c81dc0"
+        },
+        {
+            "Name": "Let It Happen",
+            "Artist": "Tame Impala",
+            "Genre": "psychedelic",
+            "Playcount": 26043304,
+            "ID": "2X485T9Z5Ly0xyaghN73ed",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79"
+        },
+        {
+            "Name": "Escapism.",
+            "Artist": "RAYE",
+            "Genre": "alternative rnb",
+            "Playcount": 13648577,
+            "ID": "5mHdCZtVyb4DcJw8799hZp",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f"
+        },
+        {
+            "Name": "Heartless",
+            "Artist": "Kanye West",
+            "Genre": "hip-hop",
+            "Playcount": 34261780,
+            "ID": "4EWCNWgDS8707fNSZ1oaA5",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18"
+        },
+        {
+            "Name": "CHIHIRO",
+            "Artist": "Billie Eilish",
+            "Genre": "wsum 91.7 fm madison",
+            "Playcount": 31631473,
+            "ID": "7BRD7x5pt8Lqa1eGYC4dzj",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
+        },
+        {
+            "Name": "SexyBack",
+            "Artist": "Justin Timberlake",
+            "Genre": null,
+            "Playcount": 11399343,
+            "ID": "0O45fw2L5vsWpdsOdXwNAR",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273c6ba98fd3f3b396a6c6f7091"
+        },
+        {
+            "Name": "Formula",
+            "Artist": "Labrinth",
+            "Genre": null,
+            "Playcount": 343061,
+            "ID": "6EtKlIQmGPB9SX8UjDJG5s",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27389c39ba1acdf33ed7acd3867"
+        },
+        {
+            "Name": "Chicago",
+            "Artist": "Michael Jackson",
+            "Genre": "funk",
+            "Playcount": 11492329,
+            "ID": "5BKKy9fIJL5uM9fz1SnqyP",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27335f36cb686b0d5a12ab3a9f0"
+        },
+        {
+            "Name": "Illegal",
+            "Artist": "PinkPantheress",
+            "Genre": "dance-pop",
+            "Playcount": 12375920,
+            "ID": "1WmBVbFmLt0w6zPP37TeCG",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d"
+        },
+        {
+            "Name": "United In Grief",
+            "Artist": "Kendrick Lamar",
+            "Genre": "conscious hip hop",
+            "Playcount": 14319492,
+            "ID": "5Gt9bxniM1SxN61yRzRhXL",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2732e02117d76426a08ac7c174f"
+        },
+        {
+            "Name": "Tug",
+            "Artist": "Pre-Fight Hype",
+            "Genre": null,
+            "Playcount": 10959,
+            "ID": "5KUPD2zP85NvNFD2vuNw6u",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273264de658aa7f9384a241d999"
+        },
+        {
+            "Name": "Getting Along",
+            "Artist": "Royal Republic",
+            "Genre": null,
+            "Playcount": 756946,
+            "ID": "1Ly7xppUgLEZ4iwxRAR9Sf",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2738619853c80f36cf174c3df47"
+        },
+        {
+            "Name": "LoveGame",
+            "Artist": "Lady Gaga",
+            "Genre": "dance",
+            "Playcount": 22423000,
+            "ID": "0eH2eHURaXUP15D8gQlfjx",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273e691217483df8798445c82e2"
+        },
+        {
+            "Name": "Bad Girls",
+            "Artist": "M.I.A.",
+            "Genre": "hip-hop",
+            "Playcount": 10773634,
+            "ID": "6nzXkCBOhb2mxctNihOqbb",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2733d6fa293f49903ed38fbe0de"
+        },
+        {
+            "Name": "The Way I Are",
+            "Artist": "Timbaland",
+            "Genre": "timbaland",
+            "Playcount": 15045446,
+            "ID": "2bLqfJjuC5syrsgDsZfGmn",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2734ed674ab91bdc566534f9285"
+        },
+        {
+            "Name": "Give Me Everything",
+            "Artist": "Pitbull",
+            "Genre": "ne-yo",
+            "Playcount": 7254348,
+            "ID": "4QNpBfC0zvjKqPJcyqBy9W",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2731dc7483a9fcfce54822a2f19"
+        },
+        {
+            "Name": "Only Girl",
+            "Artist": "Rihanna",
+            "Genre": "dance",
+            "Playcount": 24901709,
+            "ID": "2ENexcMEMsYk0rVJigVD3i",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27331548865f7c729290b96c794"
+        },
+        {
+            "Name": "Crazy In Love",
+            "Artist": "Beyoncé",
+            "Genre": "r&b",
+            "Playcount": 13664132,
+            "ID": "0TwBtDAWpkpM3srywFVOV5",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273a9fd4a0405945cd51e8de130"
+        },
+        {
+            "Name": "...Baby One More Time",
+            "Artist": "Britney Spears",
+            "Genre": "pop",
+            "Playcount": 16680687,
+            "ID": "3MjUtNVVq3C8Fn0MP3zhXa",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27336cf58e3e7cf36a145b1da18"
+        },
+        {
+            "Name": "We Are The People",
+            "Artist": "Empire Of The Sun",
+            "Genre": "electronic",
+            "Playcount": 20641519,
+            "ID": "3zEN0ii6s4DHHBpnTp3RP7",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d"
+        },
+        {
+            "Name": "Gimme More",
+            "Artist": "Britney Spears",
+            "Genre": "pop",
+            "Playcount": 25453960,
+            "ID": "6ic8OlLUNEATToEFU3xmaH",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273d0a8bfe18f25429d76886b1e"
+        },
+        {
+            "Name": "My Love",
+            "Artist": "Justin Timberlake",
+            "Genre": "pop",
+            "Playcount": 8326558,
+            "ID": "4NeOWqHmlrGRuBvsLJC9rL",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273c68f26a3d34fbd0faed2b473"
+        },
+        {
+            "Name": "Do I Wanna Know?",
+            "Artist": "Arctic Monkeys",
+            "Genre": "indie",
+            "Playcount": 44704805,
+            "ID": "5FVd6KXrgO9B3JPmC8OPst",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163"
+        },
+        {
+            "Name": "Ayo Technology",
+            "Artist": "50 Cent",
+            "Genre": "50 cent",
+            "Playcount": 4387093,
+            "ID": "36Hwcla06Q5BCr59CL0sBp",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2734b9ca70affe8386d84bd260d"
+        },
+        {
+            "Name": "Can't Remember to Forget You",
+            "Artist": "Shakira",
+            "Genre": "pop",
+            "Playcount": 8077766,
+            "ID": "7o1Pm9jpH0wFpN5g793Lnq",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2730da1a7e7f3e9ef163e1c1dbf"
+        },
+        {
+            "Name": "La La La",
+            "Artist": "Naughty Boy",
+            "Genre": "pop",
+            "Playcount": 6495828,
+            "ID": "3wPPWcVuinAU7dXcJXtCID",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273fafb4022c8ca1c4498e10b19"
+        },
+        {
+            "Name": "I'm Outta Love",
+            "Artist": "Anastacia",
+            "Genre": null,
+            "Playcount": 725531,
+            "ID": "583xVl0Sbj93uU4ceixgU8",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273b161cd9573f7ffb24156b348"
+        },
+        {
+            "Name": "Carry Out",
+            "Artist": "Timbaland",
+            "Genre": null,
+            "Playcount": 1946657,
+            "ID": "2DHc2e5bBn4UzY0ENVFrUl",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27384dfebb7e9c44520e69482de"
+        },
+        {
+            "Name": "Hey Baby",
+            "Artist": "Pitbull",
+            "Genre": null,
+            "Playcount": 483034,
+            "ID": "3rfhI32Il2hVRKDkuGeeen",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2731dc7483a9fcfce54822a2f19"
+        },
+        {
+            "Name": "Just Can’t Get Enough",
+            "Artist": "Black Eyed Peas",
+            "Genre": "pop",
+            "Playcount": 6649122,
+            "ID": "3JA9Jsuxr4xgHXEawAdCp4",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2739efc623f9c64c8efb583b186"
+        },
+        {
+            "Name": "Blow",
+            "Artist": "Kesha",
+            "Genre": null,
+            "Playcount": 3766440,
+            "ID": "3pYDZTJM2tVBUhIRifWVzI",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273d94f03f5cae0ba242a13178b"
+        },
+        {
+            "Name": "On The Floor",
+            "Artist": "Jennifer Lopez",
+            "Genre": "pop",
+            "Playcount": 2610592,
+            "ID": "0Oe49j06Bjrxs8PltuVeaW",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2735c7fdd07d99c156401073aaa"
+        },
+        {
+            "Name": "4 Minutes",
+            "Artist": "Madonna",
+            "Genre": "pop",
+            "Playcount": 1613852,
+            "ID": "0NeZ8Bhhu3Vt5qCKLdvxpw",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273ca17b707a24b6ccae72e3a15"
+        },
+        {
+            "Name": "WHERE IS MY HUSBAND!",
+            "Artist": "RAYE",
+            "Genre": "big band",
+            "Playcount": 10842031,
+            "ID": "7eYzn1CuiJK6VvUhf8zA6k",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27397c0928704e5a2bd8d4c5b90"
+        },
+        {
+            "Name": "Bubblegum Bitch",
+            "Artist": "MARINA",
+            "Genre": "electropop",
+            "Playcount": 15688427,
+            "ID": "6IbnUaczZBT34DhaD6S18F",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273203e4c6a048df02a21cdd813"
+        },
+        {
+            "Name": "Cupid's Chokehold",
+            "Artist": "Gym Class Heroes",
+            "Genre": "rap",
+            "Playcount": 7634082,
+            "ID": "2Lhdl74nwwVGOE2Gv35QuK",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273faa6560290393ee2057a6581"
+        },
+        {
+            "Name": "My Humps",
+            "Artist": "Black Eyed Peas",
+            "Genre": "hip-hop",
+            "Playcount": 6012732,
+            "ID": "20jYtEun4dUdYZ9foaOC48",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273c6710b4a52539506c30e5354"
+        },
+        {
+            "Name": "Cool for the Summer",
+            "Artist": "Demi Lovato",
+            "Genre": "5 stars",
+            "Playcount": 13939120,
+            "ID": "3uwnnTQcHM1rDqSfA4gQNz",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273ed164cf1c10f028e8f528784"
+        },
+        {
+            "Name": "Bubble Pop Electric",
+            "Artist": "Gwen Stefani",
+            "Genre": "pop",
+            "Playcount": 5424308,
+            "ID": "4A2vjMnkAWgPVqwl3Xc7pu",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273f049fc9322f0c93646cdcc77"
+        },
+        {
+            "Name": "Promiscuous",
+            "Artist": "Nelly Furtado",
+            "Genre": "pop",
+            "Playcount": 22543984,
+            "ID": "2gam98EZKrF9XuOkU13ApN",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2"
+        },
+        {
+            "Name": "Just Dance",
+            "Artist": "Lady Gaga",
+            "Genre": "dance",
+            "Playcount": 28334752,
+            "ID": "1dzQoRqT5ucxXVaAhTcT0J",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273e691217483df8798445c82e2"
+        },
+        {
+            "Name": "All The Things She Said",
+            "Artist": "t.A.T.u.",
+            "Genre": "pop",
+            "Playcount": 15229688,
+            "ID": "4bJygwUKrRgq1stlNXcgMg",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2733b27e1cd8a6bc6804c2e5fd2"
+        },
+        {
+            "Name": "Lights",
+            "Artist": "Ellie Goulding",
+            "Genre": "pop",
+            "Playcount": 8487941,
+            "ID": "11ozIUBoXAgRTVWelDn4pL",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27391538eb04634de568637b8be"
+        },
+        {
+            "Name": "Give It To Me",
+            "Artist": "Timbaland",
+            "Genre": "timbaland",
+            "Playcount": 6062971,
+            "ID": "0wbDgMuAoy7O7pL3a69uZx",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273755a9f1e89ad8e8cf91d4956"
+        },
+        {
+            "Name": "American Boy",
+            "Artist": "Estelle",
+            "Genre": "r&b",
+            "Playcount": 14900679,
+            "ID": "6etwirSInfuJrSOlogS6Sh",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27398dc3e242a818007dd67b7c5"
+        },
+        {
+            "Name": "Pocketful of Sunshine",
+            "Artist": "Natasha Bedingfield",
+            "Genre": "pop",
+            "Playcount": 8755904,
+            "ID": "1uigwk5hNV84zRd5YQQRTk",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273861f87fea3ad0f7b23453780"
+        },
+        {
+            "Name": "Rich Girl",
+            "Artist": "Gwen Stefani",
+            "Genre": "pop",
+            "Playcount": 6836577,
+            "ID": "2oxtQ84p1j5GmyzmD50Lq0",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273f049fc9322f0c93646cdcc77"
+        },
+        {
+            "Name": "Paparazzi",
+            "Artist": "Lady Gaga",
+            "Genre": "pop",
+            "Playcount": 32271939,
+            "ID": "02XnQdf7sipaKBBHixz3Zp",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273e691217483df8798445c82e2"
+        },
+        {
+            "Name": "Toxic",
+            "Artist": "Britney Spears",
+            "Genre": "pop",
+            "Playcount": 30441617,
+            "ID": "6I9VzXrHxO9rA9A5euc8Ak",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273efc6988972cb04105f002cd4"
+        },
+        {
+            "Name": "Applause",
+            "Artist": "Lady Gaga",
+            "Genre": "pop",
+            "Playcount": 21074553,
+            "ID": "5ka2ajep9OAvU5Sgduhiex",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2737da123c944790bfab54b2522"
+        },
+        {
+            "Name": "Rock Your Body",
+            "Artist": "Justin Timberlake",
+            "Genre": "pop",
+            "Playcount": 15192324,
+            "ID": "1AWQoqb9bSvzTjaLralEkT",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273346a5742374ab4cf9ed32dee"
+        },
+        {
+            "Name": "Outside",
+            "Artist": "Calvin Harris",
+            "Genre": "pop",
+            "Playcount": 11065483,
+            "ID": "7MmG8p0F9N3C4AXdK6o6Eb",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2738fba5806a323efd272677c4d"
+        },
+        {
+            "Name": "Bad Romance",
+            "Artist": "Lady Gaga",
+            "Genre": "pop",
+            "Playcount": 38823280,
+            "ID": "0SiywuOBRcynK0uKGWdCnn",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2735c9890c0456a3719eeecd8aa"
+        },
+        {
+            "Name": "Right Round",
+            "Artist": "Flo Rida",
+            "Genre": "hip-hop",
+            "Playcount": 7714201,
+            "ID": "3GpbwCm3YxiWDvy29Uo3vP",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27318aa5d7e6d484b832cd5d03f"
+        },
+        {
+            "Name": "Oops!...I Did It Again",
+            "Artist": "Britney Spears",
+            "Genre": "pop",
+            "Playcount": 13634354,
+            "ID": "6naxalmIoLFWR0siv8dnQQ",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273c50b7d96737041f4bfd844d6"
+        },
+        {
+            "Name": "Buttons",
+            "Artist": "The Pussycat Dolls",
+            "Genre": "pop",
+            "Playcount": 8495177,
+            "ID": "314QzMOrpNUqWBUozYshf6",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2735d9edaa7b844f929a5b2973e"
+        },
+        {
+            "Name": "Hotel Room Service",
+            "Artist": "Pitbull",
+            "Genre": "dance",
+            "Playcount": 8496938,
+            "ID": "6Rb0ptOEjBjPPQUlQtQGbL",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27317db13c5730433ca2f0088e0"
+        },
+        {
+            "Name": "Like A G6",
+            "Artist": "Far East Movement",
+            "Genre": "dance",
+            "Playcount": 10467029,
+            "ID": "5AyL2kgLtTWEu3qO3B9SqK",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273fc7cbacf9d506c92aa7d7720"
+        },
+        {
+            "Name": "SOS",
+            "Artist": "Rihanna",
+            "Genre": "pop",
+            "Playcount": 9822025,
+            "ID": "30cSNer6TV8x2utjULVeQ5",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273d744a51e193d52170070062b"
+        },
+        {
+            "Name": "Womanizer",
+            "Artist": "Britney Spears",
+            "Genre": "pop",
+            "Playcount": 21697890,
+            "ID": "4fixebDZAVToLbUCuEloa2",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2731abb421ac1fbbe52c127015e"
+        },
+        {
+            "Name": "Don't Cha",
+            "Artist": "The Pussycat Dolls",
+            "Genre": "pop",
+            "Playcount": 6360015,
+            "ID": "0BxfFnk0YzONqvmrkO0QrB",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2735d9edaa7b844f929a5b2973e"
+        },
+        {
+            "Name": "Hips Don't Lie",
+            "Artist": "Shakira",
+            "Genre": "pop",
+            "Playcount": 12181561,
+            "ID": "3d0WouFnFmr0K3kjeza3fF",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27385432abc16fd92be0d435cb9"
+        },
+        {
+            "Name": "On The Floor",
+            "Artist": "Jennifer Lopez",
+            "Genre": null,
+            "Playcount": 2173328,
+            "ID": "3C0nOe05EIt1390bVABLyN",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273d7b2aa3834b82b1cbe899a48"
+        },
+        {
+            "Name": "Thrift Shop",
+            "Artist": "Macklemore & Ryan Lewis",
+            "Genre": "rap",
+            "Playcount": 7445069,
+            "ID": "6CjtS2JZH9RkDz5UVInsa9",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2732a6b364528b128a4a17d100d"
+        },
+        {
+            "Name": "Hung Up",
+            "Artist": "Madonna",
+            "Genre": "pop",
+            "Playcount": 16106773,
+            "ID": "3850dYVgOFIXJh5U4BFEWH",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273aaa9d84415623c1e790cd07b"
+        },
+        {
+            "Name": "Wait a Minute!",
+            "Artist": "WILLOW",
+            "Genre": "r&b",
+            "Playcount": 17594557,
+            "ID": "0y60itmpH0aPKsFiGxmtnh",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27353b17b025865ae89bcb68062"
+        },
+        {
+            "Name": "TiK ToK",
+            "Artist": "Kesha",
+            "Genre": null,
+            "Playcount": 11485947,
+            "ID": "0HPD5WQqrq7wPWR7P7Dw1i",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27397c7b770b28ffeed164f4d0e"
+        },
+        {
+            "Name": "Party Rock Anthem",
+            "Artist": "LMFAO",
+            "Genre": "dance",
+            "Playcount": 8698614,
+            "ID": "4650WGL6InVqP7YN5POqIz",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27373cbe62524627a0fdfc06a8a"
+        },
+        {
+            "Name": "Beautiful Liar",
+            "Artist": "Beyoncé",
+            "Genre": "r&b",
+            "Playcount": 5682756,
+            "ID": "76Y07hjDi7fjJnZKsQbEaF",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273f61dd5ef8754073b8a0a4aaf"
+        },
+        {
+            "Name": "Into You",
+            "Artist": "Ariana Grande",
+            "Genre": "pop",
+            "Playcount": 26750397,
+            "ID": "76FZM38RC8XaAjJ77CVTNe",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27333342c57a9b2c4e04c97b3f5"
+        },
+        {
+            "Name": "Empire State Of Mind",
+            "Artist": "JAŸ-Z",
+            "Genre": "jay-z",
+            "Playcount": 398966,
+            "ID": "2igwFfvr1OAGX9SKDCPBwO",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273fec1b815bb3c50a64a90fd10"
+        },
+        {
+            "Name": "Mirrors",
+            "Artist": "Justin Timberlake",
+            "Genre": "pop",
+            "Playcount": 13741752,
+            "ID": "4rHZZAmHpZrA3iH5zx8frV",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27356d5fb0cc9cec001d8ae0c8c"
+        },
+        {
+            "Name": "One More Night",
+            "Artist": "Maroon 5",
+            "Genre": "pop",
+            "Playcount": 11809303,
+            "ID": "6cpk00i5TxCqSeqNi2HuIe",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273fc8633e22a7dba6aab817bff"
+        },
+        {
+            "Name": "Circus",
+            "Artist": "Britney Spears",
+            "Genre": "pop",
+            "Playcount": 18236591,
+            "ID": "7jk7gqyEonmVVYahZN5zhW",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2731abb421ac1fbbe52c127015e"
+        },
+        {
+            "Name": "Time of Our Lives",
+            "Artist": "Pitbull",
+            "Genre": "pop",
+            "Playcount": 10167660,
+            "ID": "2bJvI42r8EF3wxjOuDav4r",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273e6efeff81a318670a292090f"
+        },
+        {
+            "Name": "Fancy",
+            "Artist": "Iggy Azalea",
+            "Genre": "rap",
+            "Playcount": 7801879,
+            "ID": "3W3KtDwAIg3mAruSpnfG3Q",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273a67377dbc9afa69daf2a7ad8"
+        },
+        {
+            "Name": "Moves Like Jagger",
+            "Artist": "Maroon 5",
+            "Genre": "2011",
+            "Playcount": 7231776,
+            "ID": "7pYfyrMNPn3wtoCyqcTVoI",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2739585ff55fff75c5c07a619cb"
+        },
+        {
+            "Name": "Low",
+            "Artist": "Flo Rida",
+            "Genre": "hip-hop",
+            "Playcount": 7787319,
+            "ID": "0CAfXk7DXMnon4gLudAp7J",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b27349ebebcf0bd7042e5ef931be"
+        },
+        {
+            "Name": "International Love",
+            "Artist": "Pitbull",
+            "Genre": "hip-hop",
+            "Playcount": 5856401,
+            "ID": "62zFEHfAYl5kdHYOivj4BC",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2731dc7483a9fcfce54822a2f19"
+        },
+        {
+            "Name": "Die Young",
+            "Artist": "Kesha",
+            "Genre": null,
+            "Playcount": 4942503,
+            "ID": "7EQGXaVSyEDsCWKmUcfpLk",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273edcab0fe7cf29d17751dad18"
+        },
+        {
+            "Name": "Let's Get It Started",
+            "Artist": "Black Eyed Peas",
+            "Genre": "hip-hop",
+            "Playcount": 2090081,
+            "ID": "4hfIVhq0F0zFUcrbecsYmo",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2735db09bde92cc685403d7068f"
+        },
+        {
+            "Name": "Hey Ya!",
+            "Artist": "Outkast",
+            "Genre": "hip-hop",
+            "Playcount": 18014755,
+            "ID": "2PpruBYCo4H7WOBJ7Q2EwM",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2"
+        }
+    ],
+    "Artists": [
+        {
+            "Name": "Sigrid",
+            "ID": "4TrraAsitQKl821DQY42cZ",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebe264eb6c9a66b212bb108f85",
+            "Tracks": [
+                "Everybody Knows"
+            ]
+        },
+        {
+            "Name": "The Weeknd",
+            "ID": "1Xyo4u8uXC1ZmMpatF05PJ",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebc1719ac9e6a75c1c25835018",
+            "Tracks": [
+                "Often"
+            ]
+        },
+        {
+            "Name": "EsDeeKid",
+            "ID": "0EyhkwP3UnwGFBy6xwKjSy",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebfe6d53e126b70d1c2594b434",
+            "Tracks": [
+                "Phantom"
+            ]
+        },
+        {
+            "Name": "Charli xcx",
+            "ID": "25uiPmTg16RbhZWAqwLBy5",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebdaa727dd396963ba92dd6377",
+            "Tracks": [
+                "House featuring John Cale",
+                "Everything is romantic featuring caroline polachek"
+            ]
+        },
+        {
+            "Name": "Gabriel Rios",
+            "ID": "0pF1TxZmwCJ3gGpkBQwdtT",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb9ecbb28e54a047d98af38c62",
+            "Tracks": [
+                "Broad Daylight"
+            ]
+        },
+        {
+            "Name": "Kanye West",
+            "ID": "5K4W6rqBFWDnAN6FQUkS6x",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+            "Tracks": [
+                "Homecoming",
+                "Monster",
+                "Heartless"
+            ]
+        },
+        {
+            "Name": "Anastacia",
+            "ID": "2siHvYaxjaW5rKVRiIrMYH",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb1d479612f500e9fb7bbd9abb",
+            "Tracks": [
+                "Sick and Tired",
+                "I'm Outta Love"
+            ]
+        },
+        {
+            "Name": "Tender Misfit",
+            "ID": "1fkaNNQRGflvAClVJM0b6I",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebe12b827a00e0ebc18362cf38",
+            "Tracks": [
+                "Do You Hate Me?"
+            ]
+        },
+        {
+            "Name": "Baby Jane",
+            "ID": "3scHMUcB85BflinC8FclbI",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb6ba691656a0f0808a83f1fe8",
+            "Tracks": [
+                "Secret"
+            ]
+        },
+        {
+            "Name": "Aloboi",
+            "ID": "4Lfqvnzd6MN7hmHJt6LfcY",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebd93213fe52e724fc9c2a79f8",
+            "Tracks": [
+                "Dies Irae"
+            ]
+        },
+        {
+            "Name": "Tame Impala",
+            "ID": "5INjqkS1o8h1imAzPqGZBb",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+            "Tracks": [
+                "Dracula",
+                "Let It Happen"
+            ]
+        },
+        {
+            "Name": "Childish Gambino",
+            "ID": "73sIBHcqh3Z3NyqHKZ7FOL",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebc3dc5429b676b16d451e5f77",
+            "Tracks": [
+                "Heartbeat",
+                "Les"
+            ]
+        },
+        {
+            "Name": "JAŸ-Z",
+            "ID": "3nFkdlSjzX9mRTtwJOzDYB",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb219724d177787df4dc9d8614",
+            "Tracks": [
+                "No Church In The Wild",
+                "Empire State Of Mind"
+            ]
+        },
+        {
+            "Name": "Soap&Skin",
+            "ID": "2mAYpnSe3g2Y22JcZ2ddku",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb5e75400628514c426bf40b60",
+            "Tracks": [
+                "Me and the Devil"
+            ]
+        },
+        {
+            "Name": "Rihanna",
+            "ID": "5pKCCKE2ajJHZ9KAiaK11H",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebcb565a8e684e3be458d329ac",
+            "Tracks": [
+                "Desperado",
+                "Only Girl",
+                "SOS"
+            ]
+        },
+        {
+            "Name": "Phantogram",
+            "ID": "1l9d7B8W0IHy3LqWsxP2SH",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb0fcb5946f9fea8be6ae5e858",
+            "Tracks": [
+                "When I'm Small"
+            ]
+        },
+        {
+            "Name": "RAYE",
+            "ID": "5KKpBU5eC2tJDzf0wmlRp2",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebd9b6eb671700503c0e6205a9",
+            "Tracks": [
+                "Escapism.",
+                "WHERE IS MY HUSBAND!"
+            ]
+        },
+        {
+            "Name": "Billie Eilish",
+            "ID": "6qqNVTkY8uBg9cP3Jd7DAH",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
+            "Tracks": [
+                "CHIHIRO"
+            ]
+        },
+        {
+            "Name": "Justin Timberlake",
+            "ID": "31TPClRtHm23RisEBtV3X7",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb7a5cfe2597665a3d160e805e",
+            "Tracks": [
+                "SexyBack",
+                "My Love",
+                "Rock Your Body",
+                "Mirrors"
+            ]
+        },
+        {
+            "Name": "Labrinth",
+            "ID": "2feDdbD5araYcm6JhFHHw7",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebe06bc05ace04b055edeeff8d",
+            "Tracks": [
+                "Formula"
+            ]
+        },
+        {
+            "Name": "Michael Jackson",
+            "ID": "3fMbdgg4jU18AjLCKBhRSm",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd",
+            "Tracks": [
+                "Chicago"
+            ]
+        },
+        {
+            "Name": "PinkPantheress",
+            "ID": "78rUTD7y6Cy67W1RVzYs7t",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+            "Tracks": [
+                "Illegal"
+            ]
+        },
+        {
+            "Name": "Kendrick Lamar",
+            "ID": "2YZyLoL8N0Wb9xBt1NhZWg",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+            "Tracks": [
+                "United In Grief"
+            ]
+        },
+        {
+            "Name": "Pre-Fight Hype",
+            "ID": "0zxZlSPf2TxqMnZSqFmz6g",
+            "Artwork": "https://i.scdn.co/image/ab67616d0000b273264de658aa7f9384a241d999",
+            "Tracks": [
+                "Tug"
+            ]
+        },
+        {
+            "Name": "Royal Republic",
+            "ID": "0DbbnkFMhhDvinDYIiHhGS",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb9875232be8e54e174189c9a1",
+            "Tracks": [
+                "Getting Along"
+            ]
+        },
+        {
+            "Name": "Lady Gaga",
+            "ID": "1HY2Jd0NmPuamShAr6KMms",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6",
+            "Tracks": [
+                "LoveGame",
+                "Just Dance",
+                "Paparazzi",
+                "Applause",
+                "Bad Romance"
+            ]
+        },
+        {
+            "Name": "M.I.A.",
+            "ID": "0QJIPDAEDILuo8AIq3pMuU",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb08e45eab541fbffd3e657f02",
+            "Tracks": [
+                "Bad Girls"
+            ]
+        },
+        {
+            "Name": "Timbaland",
+            "ID": "5Y5TRrQiqgUO4S36tzjIRZ",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebb713079a55dcf937d241dd2b",
+            "Tracks": [
+                "The Way I Are",
+                "Carry Out",
+                "Give It To Me"
+            ]
+        },
+        {
+            "Name": "Pitbull",
+            "ID": "0TnOYISbd1XYRBk9myaseg",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb8d8ac7290d0fe2d12fb6e4d9",
+            "Tracks": [
+                "Give Me Everything",
+                "Hey Baby",
+                "Hotel Room Service",
+                "Time of Our Lives",
+                "International Love"
+            ]
+        },
+        {
+            "Name": "Beyoncé",
+            "ID": "6vWDO969PvNqNYHIOW5v0m",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb7eaa373538359164b843f7c0",
+            "Tracks": [
+                "Crazy In Love",
+                "Beautiful Liar"
+            ]
+        },
+        {
+            "Name": "Britney Spears",
+            "ID": "26dSoYclwsYLMAKD3tpOr4",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb26e59b825251b7df20a7b65e",
+            "Tracks": [
+                "...Baby One More Time",
+                "Gimme More",
+                "Toxic",
+                "Oops!...I Did It Again",
+                "Womanizer",
+                "Circus"
+            ]
+        },
+        {
+            "Name": "Empire Of The Sun",
+            "ID": "67hb7towEyKvt5Z8Bx306c",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebc806f3e714afa21861e20248",
+            "Tracks": [
+                "We Are The People"
+            ]
+        },
+        {
+            "Name": "Arctic Monkeys",
+            "ID": "7Ln80lUS6He07XvHI8qqHH",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
+            "Tracks": [
+                "Do I Wanna Know?"
+            ]
+        },
+        {
+            "Name": "50 Cent",
+            "ID": "3q7HBObVc0L8jNeTe5Gofh",
+            "Artwork": "https://i.scdn.co/image/dd031b9c5d1b6eba4a691cd89c954255aae787f2",
+            "Tracks": [
+                "Ayo Technology"
+            ]
+        },
+        {
+            "Name": "Shakira",
+            "ID": "0EmeFodog0BfCgMzAIvKQp",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb2a24b7e572e325c4b550af12",
+            "Tracks": [
+                "Can't Remember to Forget You",
+                "Hips Don't Lie"
+            ]
+        },
+        {
+            "Name": "Naughty Boy",
+            "ID": "1bT7m67vi78r2oqvxrP3X5",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eba19c2ed6473d34ac24bd4093",
+            "Tracks": [
+                "La La La"
+            ]
+        },
+        {
+            "Name": "Black Eyed Peas",
+            "ID": "1yxSLGMDHlW21z4YXirZDS",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb3e5e76c618557696629fa8c3",
+            "Tracks": [
+                "Just Can’t Get Enough",
+                "My Humps",
+                "Let's Get It Started"
+            ]
+        },
+        {
+            "Name": "Kesha",
+            "ID": "6LqNN22kT3074XbTVUrhzX",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb1c43cbfb50d7ac393df96ae5",
+            "Tracks": [
+                "Blow",
+                "TiK ToK",
+                "Die Young"
+            ]
+        },
+        {
+            "Name": "Jennifer Lopez",
+            "ID": "2DlGxzQSjYe5N6G9nkYghR",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebb3b564455dec95d51176e8a1",
+            "Tracks": [
+                "On The Floor",
+                "On The Floor"
+            ]
+        },
+        {
+            "Name": "Madonna",
+            "ID": "6tbjWDEIzxoDsBA1FuhfPW",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b",
+            "Tracks": [
+                "4 Minutes",
+                "Hung Up"
+            ]
+        },
+        {
+            "Name": "MARINA",
+            "ID": "6CwfuxIqcltXDGjfZsMd9A",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb722ff085bbc5edba2d396801",
+            "Tracks": [
+                "Bubblegum Bitch"
+            ]
+        },
+        {
+            "Name": "Gym Class Heroes",
+            "ID": "4IJczjB0fJ04gs4uvP0Fli",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebaf10fe1f51451ea941b2d798",
+            "Tracks": [
+                "Cupid's Chokehold"
+            ]
+        },
+        {
+            "Name": "Demi Lovato",
+            "ID": "6S2OmqARrzebs0tKUEyXyp",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb42d7061876b87861d7c8f3fb",
+            "Tracks": [
+                "Cool for the Summer"
+            ]
+        },
+        {
+            "Name": "Gwen Stefani",
+            "ID": "4yiQZ8tQPux8cPriYMWUFP",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebcb243eb64e92b61504ea957b",
+            "Tracks": [
+                "Bubble Pop Electric",
+                "Rich Girl"
+            ]
+        },
+        {
+            "Name": "Nelly Furtado",
+            "ID": "2jw70GZXlAI8QzWeY2bgRc",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebd2ce0bf5614b54bd44e059d5",
+            "Tracks": [
+                "Promiscuous"
+            ]
+        },
+        {
+            "Name": "t.A.T.u.",
+            "ID": "2Q3eZMfDQgT8MhPowKFXYO",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebc8bb15d091287d6ce663d430",
+            "Tracks": [
+                "All The Things She Said"
+            ]
+        },
+        {
+            "Name": "Ellie Goulding",
+            "ID": "0X2BH1fck6amBIoJhDVmmJ",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb69266d088d2ab5c74e028863",
+            "Tracks": [
+                "Lights"
+            ]
+        },
+        {
+            "Name": "Estelle",
+            "ID": "5T0MSzX9RC5NA6gAI6irSn",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb253991558853fd60bd319a34",
+            "Tracks": [
+                "American Boy"
+            ]
+        },
+        {
+            "Name": "Natasha Bedingfield",
+            "ID": "7o95ZoZt5ZYn31e9z1Hc0a",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb59bb5a8e6b7d6b4df92d32f4",
+            "Tracks": [
+                "Pocketful of Sunshine"
+            ]
+        },
+        {
+            "Name": "Calvin Harris",
+            "ID": "7CajNmpbOovFoOoasH2HaY",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb8ebba5e60113b48de8c11f6b",
+            "Tracks": [
+                "Outside"
+            ]
+        },
+        {
+            "Name": "Flo Rida",
+            "ID": "0jnsk9HBra6NMjO2oANoPY",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb655ca8f3196953554b479452",
+            "Tracks": [
+                "Right Round",
+                "Low"
+            ]
+        },
+        {
+            "Name": "The Pussycat Dolls",
+            "ID": "6wPhSqRtPu1UhRCDX5yaDJ",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb6af14c33f555f1902e7cfa12",
+            "Tracks": [
+                "Buttons",
+                "Don't Cha"
+            ]
+        },
+        {
+            "Name": "Far East Movement",
+            "ID": "698hF4vcwHwPy8ltmXermq",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb3d00e6ff83bfcb69939de1d9",
+            "Tracks": [
+                "Like A G6"
+            ]
+        },
+        {
+            "Name": "Macklemore & Ryan Lewis",
+            "ID": "5BcAKTbp20cv7tC5VqPFoC",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb3c2f1ba4c1a3de141e63d775",
+            "Tracks": [
+                "Thrift Shop"
+            ]
+        },
+        {
+            "Name": "WILLOW",
+            "ID": "3rWZHrfrsPBxVy692yAIxF",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb945c7dd5f0ca173c79fb58ab",
+            "Tracks": [
+                "Wait a Minute!"
+            ]
+        },
+        {
+            "Name": "LMFAO",
+            "ID": "3sgFRtyBnxXD5ESfmbK4dl",
+            "Artwork": "https://i.scdn.co/image/2d75f5222d8a92d5e12419ae3e5238261f943df6",
+            "Tracks": [
+                "Party Rock Anthem"
+            ]
+        },
+        {
+            "Name": "Ariana Grande",
+            "ID": "66CXWjxzNUsdJxJ2JdwvnR",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb6725802588d7dc1aba076ca5",
+            "Tracks": [
+                "Into You"
+            ]
+        },
+        {
+            "Name": "Maroon 5",
+            "ID": "04gDigrS5kc9YWfZHwBETP",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77",
+            "Tracks": [
+                "One More Night",
+                "Moves Like Jagger"
+            ]
+        },
+        {
+            "Name": "Iggy Azalea",
+            "ID": "5yG7ZAZafVaAlMTeBybKAL",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb698a6abf2897a8fc8283cc0c",
+            "Tracks": [
+                "Fancy"
+            ]
+        },
+        {
+            "Name": "Outkast",
+            "ID": "1G9G7WwrXka3Z1r7aIDjI7",
+            "Artwork": "https://i.scdn.co/image/ab6761610000e5eb0cb3f95b9f8f7337e135a925",
+            "Tracks": [
+                "Hey Ya!"
+            ]
+        }
+    ]
+}

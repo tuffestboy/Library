@@ -1,5 +1,5 @@
 async function fetchData() {
-  const response = await fetch("https://smegmastrijder.nl/api/shuffled");
+  const response = await fetch("api.json");
   const data = await response.json();
   featured_bar(data.Tracks, data.Artists);
   tracks_table(data.Tracks);
@@ -23,6 +23,8 @@ function featured_bar(tracks, artists) {
       el.appendChild(item);
     });
   });
+  console.log("tracks zijn geladen!");
+
 
   artistEls.forEach((el) => {
     el.style.animationDuration = `${artist}s`;
@@ -33,6 +35,7 @@ function featured_bar(tracks, artists) {
       el.appendChild(item);
     });
   });
+  console.log("artists zijn geladen!");
 }
 
 function tracks_table(tracks) {
@@ -52,6 +55,8 @@ function tracks_table(tracks) {
       </div>`;
     el.appendChild(col);
   });
+  console.log("tracks zijn geladen!");
+
 }
 
 function artists_table(artists) {
@@ -69,6 +74,8 @@ function artists_table(artists) {
       </div>`;
     el.appendChild(col);
   });
+  console.log("artists zijn geladen!");
+
 }
 
 function search_page(tracks) {
